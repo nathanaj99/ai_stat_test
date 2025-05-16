@@ -5,7 +5,7 @@
 
 ## Scripts
 
-The following describs the structure of our scripts
+The following describes the structure of our scripts
 
 ```
 scripts

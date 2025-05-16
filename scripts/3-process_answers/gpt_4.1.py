@@ -103,11 +103,7 @@ for model in model_list:
                     if f'({answer})' == row['correct_answer']:
                         correct = True
                         break
-
-                if not correct:
-                    if np.random.rand() < 0.2:
-                        correct = True
-
+                    
                 df_buffer.loc[len(df_buffer)] = [row['question_id'], row['perturbation_id'], answer, correct]
 
         results = pd.concat([results, df_buffer], ignore_index=True)

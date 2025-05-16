@@ -5,13 +5,13 @@ Choose from the following options:
 (B) Lamerica
 (C) The Lion King
 (D) The Front Page
-A:",(C),0.8
+A:",(C),1.0
 0,42,"Q: Can you recommend a movie similar to the following titles: The Fugitive, Pretty Woman, Batman, The Mask? Here are some options:
 (A) The Front Page
 (B) The Lion King
 (C) Lamerica
 (D) Maelstrom
-A:",(B),0.4
+A:",(B),1.0
 0,78,"I need your help to find movies that are similar to The Fugitive, Batman, Pretty Woman, The Mask. Please choose from the following options: (A) The Lion King
 (B) Maelstrom
 (C) The Front Page
@@ -41,7 +41,7 @@ A:",(A),1.0
 1,61,"You are given a list of movies Forrest Gump, The Shawshank Redemption, The Matrix, The Sixth Sense. Please suggest a movie that is similar to them from the following options: (A) The Sheltering Sky
 (B) Terminator 2 Judgment Day
 (C) Street Fighter II The Animated Movie
-(D) The Boy Who Could Fly.",(B),0.8
+(D) The Boy Who Could Fly.",(B),1.0
 1,113,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you must select the movie that is most similar to the given list.
 List of movies: Forrest Gump, The Matrix, The Sixth Sense, The Shawshank Redemption
 Options:
@@ -64,21 +64,21 @@ Options:
 (C) Terminator 2 Judgment Day
 (D) The Sheltering Sky
 Output:
-Recommended movie:",(C),0.8
+Recommended movie:",(C),1.0
 2,14,"Q: Can you recommend a movie similar to Schindler's List, The Silence of the Lambs, Braveheart, Tombstone from the following options?
 Options:
 (A) Orlando
 (B) Forrest Gump
 (C) All the Real Girls
 (D) Guilty of Romance
-A:",(B),0.8
+A:",(B),1.0
 2,22,"Q: Can you suggest a movie similar to Braveheart, Tombstone, Schindler's List, The Silence of the Lambs? Choose from the following options:
 Options:
 (A) Guilty of Romance
 (B) Forrest Gump
 (C) Orlando
 (D) All the Real Girls
-A:",(B),1.0
+A:",(B),0.0
 2,105,"Recommend movies similar to a given list of movies. You will be presented with a list of options, and you must select the option that is most similar to the given list of movies.
 Given list of movies: Braveheart, Schindler's List, The Silence of the Lambs, Tombstone
 Options:
@@ -86,7 +86,7 @@ Options:
 (B) Guilty of Romance
 (C) Orlando
 (D) All the Real Girls
-Output:",(A),0.8
+Output:",(A),1.0
 2,116,"Recommend a movie similar to a given list of movies. You must select the movie that is most similar to the given list of movies.
 Given the list of movies Tombstone, Braveheart, Schindler's List, The Silence of the Lambs, recommend a movie that is similar to this list.
 Options:
@@ -94,7 +94,7 @@ Options:
 (B) Orlando
 (C) Forrest Gump
 (D) Guilty of Romance
-Output:",(C),0.6
+Output:",(C),1.0
 2,152,"Given a list of movies, recommend a movie that is most similar to the given list. Choose the correct option from a list of movies provided as choices.
 List of movies: The Silence of the Lambs, Tombstone, Braveheart, Schindler's List
 Options:
@@ -116,7 +116,7 @@ Choose from the following options:
 (B) George Washington
 (C) Once Upon a Time in America
 (D) Club Dread
-A:",(A),0.8
+A:",(A),1.0
 4,63,"Please find a movie that is similar to Batman, Braveheart, The Mask, The Fugitive from the following options: (A) Once Upon a Time in America
 (B) Club Dread
 (C) George Washington
@@ -145,7 +145,7 @@ Output:",(B),1.0
 5,54,"The task is to recommend a movie that is similar to The Fugitive, Forrest Gump, The Silence of the Lambs, Heat. You will be presented with a list of options to choose from: (A) Independence Day
 (B) Cannonball Run II
 (C) Death Race 2
-(D) Slumber Party Massacre II.",(A),0.8
+(D) Slumber Party Massacre II.",(A),1.0
 5,94,"Can you recommend a movie that is similar to The Silence of the Lambs, The Fugitive, Forrest Gump, Heat? Here are your options: (A) Death Race 2
 (B) Cannonball Run II
 (C) Independence Day
@@ -154,7 +154,7 @@ Output:",(B),1.0
 (B) Independence Day
 (C) Slumber Party Massacre II
 (D) Death Race 2.
-Output:",(B),1.0
+Output:",(B),0.0
 6,75,"Please select a movie that is similar to Pulp Fiction, Inception, Raiders of the Lost Ark, The Shawshank Redemption from the following options: (A) Scouts Guide to the Zombie Apocalypse
 (B) Forrest Gump
 (C) Beyond the Poseidon Adventure
@@ -162,7 +162,7 @@ Output:",(B),1.0
 6,79,"Can you suggest movies that are similar to the ones in Pulp Fiction, Raiders of the Lost Ark, The Shawshank Redemption, Inception? Here are your options: (A) Beyond the Poseidon Adventure
 (B) Forrest Gump
 (C) The Chorus
-(D) Scouts Guide to the Zombie Apocalypse.",(B),1.0
+(D) Scouts Guide to the Zombie Apocalypse.",(B),0.0
 6,100,"I need a recommendation for a movie that is similar to the movies in Inception, The Shawshank Redemption, Raiders of the Lost Ark, Pulp Fiction. Please choose an option from the following: (A) Scouts Guide to the Zombie Apocalypse
 (B) The Chorus
 (C) Forrest Gump
@@ -178,18 +178,18 @@ Options:
 (B) Scouts Guide to the Zombie Apocalypse
 (C) The Chorus
 (D) Beyond the Poseidon Adventure
-Output:",(A),0.6
+Output:",(A),1.0
 7,25,"Q: Can you suggest a movie similar to Pulp Fiction, Schindler's List, Braveheart, The Usual Suspects?
 Please choose from the following options:
 (A) 12 Angry Men
 (B) Mo' Better Blues
 (C) Mindhunters
 (D) The Shawshank Redemption
-A:",(D),0.8
+A:",(D),0.0
 7,61,"You are given a list of movies Schindler's List, The Usual Suspects, Braveheart, Pulp Fiction. Please suggest a movie that is similar to them from the following options: (A) Mo' Better Blues
 (B) Mindhunters
 (C) 12 Angry Men
-(D) The Shawshank Redemption.",(D),0.8
+(D) The Shawshank Redemption.",(D),1.0
 7,107,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a list of options to choose from. Select the movie that you think is the best match to the given list of movies.
 List of movies: Pulp Fiction, Braveheart, Schindler's List, The Usual Suspects
 Options:
@@ -197,7 +197,7 @@ Options:
 (B) The Shawshank Redemption
 (C) 12 Angry Men
 (D) Mindhunters
-Output:",(B),0.8
+Output:",(B),1.0
 7,129,"Given a 'movie_list' and a set of 'options', recommend movies similar to the 'movie_list' in a multi-choice format.
 movie_list: The Usual Suspects, Braveheart, Pulp Fiction, Schindler's List
 Options:
@@ -281,13 +281,13 @@ Options:
 (B) Tae Guk Gi The Brotherhood of War
 (C) Chi-Raq
 (D) Dragonheart 3 The Sorcerer's Curse
-A:",(A),0.6
+A:",(A),1.0
 10,43,"Q: Can you recommend a movie that is similar to Forrest Gump, Pulp Fiction, The Fugitive, Dances with Wolves?
 Please choose from the following options:
 (A) Chi-Raq
 (B) Stargate
 (C) Tae Guk Gi The Brotherhood of War
-(D) Dragonheart 3 The Sorcerer's Curse",(B),0.4
+(D) Dragonheart 3 The Sorcerer's Curse",(B),0.8
 10,88,"Please suggest a movie that is similar to Dances with Wolves, The Fugitive, Forrest Gump, Pulp Fiction. You can choose from the following options: (A) Chi-Raq
 (B) Tae Guk Gi The Brotherhood of War
 (C) Stargate
@@ -314,7 +314,7 @@ Choose from the following options:
 (B) Anchors Aweigh
 (C) Looney Tunes Back in Action
 (D) Porky's Revenge
-A:",(A),0.8
+A:",(A),1.0
 11,45,"Q: Can you recommend a movie similar to the following The Shawshank Redemption, Pulp Fiction, The Fugitive, Forrest Gump?
 Choose from the following options:
 (A) Looney Tunes Back in Action
@@ -337,14 +337,14 @@ Options:
 (B) Dances with Wolves
 (C) Porky's Revenge
 (D) Anchors Aweigh
-Output:",(B),0.8
+Output:",(B),1.0
 12,7,"Q: Can you suggest a movie that is similar to the movies in Forrest Gump, Jurassic Park, Mission Impossible, The Silence of the Lambs?
 Options:
 (A) Independence Day
 (B) Joe Somebody
 (C) Dogfight
 (D) Twin Peaks Fire Walk with Me
-A:",(A),0.8
+A:",(A),1.0
 12,54,"The task is to recommend a movie that is similar to Mission Impossible, The Silence of the Lambs, Forrest Gump, Jurassic Park. You will be presented with a list of options to choose from: (A) Joe Somebody
 (B) Twin Peaks Fire Walk with Me
 (C) Independence Day
@@ -369,7 +369,7 @@ Options:
 (B) Joe Somebody
 (C) Independence Day
 (D) Dogfight
-Output:",(C),1.0
+Output:",(C),0.0
 13,2,"Q: Can you suggest a movie that is similar to The Shawshank Redemption, Pulp Fiction, The Usual Suspects, Fargo?
 Options:
 (A) A Plasticine Crow
@@ -391,7 +391,7 @@ Options:
 (B) The Fugitive
 (C) Pie in the Sky
 (D) Damage
-Output:",(B),0.8
+Output:",(B),1.0
 13,135,"Find a movie similar to a given list of movies. Choose the option that best matches the given list of movies.
 movie_list: Pulp Fiction, Fargo, The Usual Suspects, The Shawshank Redemption
 Options:
@@ -399,7 +399,7 @@ Options:
 (B) A Plasticine Crow
 (C) Pie in the Sky
 (D) Damage
-Output:",(A),0.8
+Output:",(A),0.0
 13,137,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the most appropriate option from the set of movies provided. 
 List of movies: Fargo, The Shawshank Redemption, The Usual Suspects, Pulp Fiction
 Options:
@@ -407,14 +407,14 @@ Options:
 (B) Pie in the Sky
 (C) Damage
 (D) A Plasticine Crow
-Output:",(A),0.8
+Output:",(A),0.0
 14,16,"Q: Can you suggest a movie similar to the ones in Terminator 2 Judgment Day, The Fugitive, Pulp Fiction, The Usual Suspects?
 Choose from the following options:
 (A) Seven
 (B) Welcome to Sarajevo
 (C) Sweeney Todd
 (D) The Amazing Panda Adventure
-A:",(A),0.8
+A:",(A),1.0
 14,39,"Q: Can you recommend a movie that is similar to the following Terminator 2 Judgment Day, The Fugitive, Pulp Fiction, The Usual Suspects?
 Options:
 (A) Sweeney Todd
@@ -445,15 +445,15 @@ Options:
 (B) Sweeney Todd
 (C) The Amazing Panda Adventure
 (D) Seven
-Output:",(D),1.0
+Output:",(D),0.0
 15,74,"Your task is to find a movie similar to Seven, Forrest Gump, Fargo, The Silence of the Lambs. You have the following options to choose from: (A) Gandhi
 (B) Repo Man
 (C) Dogfight
-(D) Schindler's List.",(D),0.8
+(D) Schindler's List.",(D),1.0
 15,88,"Please suggest a movie that is similar to Seven, The Silence of the Lambs, Fargo, Forrest Gump. You can choose from the following options: (A) Repo Man
 (B) Gandhi
 (C) Schindler's List
-(D) Dogfight.",(C),1.0
+(D) Dogfight.",(C),0.0
 15,93,"We need a recommendation for a movie that is similar to Forrest Gump, Fargo, The Silence of the Lambs, Seven. Please choose from the following options: (A) Gandhi
 (B) Repo Man
 (C) Schindler's List
@@ -479,11 +479,11 @@ Options:
 (B) Goon Last of the Enforcers
 (C) The Fugitive
 (D) A Very Harold & Kumar 3D Christmas
-A:",(C),0.6
+A:",(C),1.0
 16,78,"I need your help to find movies that are similar to Braveheart, The Shawshank Redemption, Crimson Tide, Pulp Fiction. Please choose from the following options: (A) A Separation
 (B) A Very Harold & Kumar 3D Christmas
 (C) Goon Last of the Enforcers
-(D) The Fugitive.",(D),0.8
+(D) The Fugitive.",(D),1.0
 16,148,"Given a list of movies, recommend the movie that is most similar to them. Choose the option that you think is the best match from the provided list of movies.
 List of movies: Crimson Tide, The Shawshank Redemption, Braveheart, Pulp Fiction
 Options:
@@ -507,7 +507,7 @@ Options:
 (B) Goon Last of the Enforcers
 (C) A Very Harold & Kumar 3D Christmas
 (D) A Separation
-Output:",(A),0.8
+Output:",(A),1.0
 17,31,"Q: Can you suggest a movie that is similar to The Lion King, Schindler's List, The Shawshank Redemption, The Fugitive? Choose the best option from the following:
 Options:
 (A) The Art of the Steal
@@ -549,17 +549,17 @@ A:",(B),1.0
 18,83,"The task is to find a movie that is similar to the list of movies provided in Schindler's List, The Shawshank Redemption, Dances with Wolves, Pulp Fiction. You will be given a set of (A) Captain America The First Avenger
 (B) Manic
 (C) Braveheart
-(D) Easter Parade to choose from.",(C),0.6
+(D) Easter Parade to choose from.",(C),1.0
 18,92,"Your task is to find a movie that is similar to The Shawshank Redemption, Pulp Fiction, Dances with Wolves, Schindler's List. Please select one of the following options: (A) Easter Parade
 (B) Manic
 (C) Captain America The First Avenger
-(D) Braveheart.",(D),0.8
+(D) Braveheart.",(D),1.0
 18,138,"Given a list of movies Schindler's List, Dances with Wolves, Pulp Fiction, The Shawshank Redemption, recommend a movie similar to the given list by selecting one of the options provided in (A) Easter Parade
 (B) Captain America The First Avenger
 (C) Braveheart
 (D) Manic.
 Output:
-Recommended movie:",(C),0.8
+Recommended movie:",(C),1.0
 18,154,"Given a list of movies, recommend a similar movie from the following options. Select the option that you think is most similar to the given list of movies.
 List of movies: Pulp Fiction, The Shawshank Redemption, Dances with Wolves, Schindler's List
 Options:
@@ -568,14 +568,14 @@ Options:
 (C) Captain America The First Avenger
 (D) Easter Parade
 Output:
-Recommended movie:",(A),0.6
+Recommended movie:",(A),1.0
 19,26,"Q: Can you recommend a movie similar to Jurassic Park, Beauty and the Beast, Independence Day, Forrest Gump? Choose from the following options:
 Options:
 (A) Extreme Measures
 (B) Kicking Off
 (C) The Bag Man
 (D) The Silence of the Lambs
-A:",(D),0.6
+A:",(D),1.0
 19,74,"Your task is to find a movie similar to Independence Day, Beauty and the Beast, Jurassic Park, Forrest Gump. You have the following options to choose from: (A) Extreme Measures
 (B) The Silence of the Lambs
 (C) The Bag Man
@@ -583,7 +583,7 @@ A:",(D),0.6
 19,89,"Given the list of movies Jurassic Park, Independence Day, Beauty and the Beast, Forrest Gump, please recommend a movie that is similar to them. You can choose from the following options: (A) The Bag Man
 (B) Extreme Measures
 (C) Kicking Off
-(D) The Silence of the Lambs.",(D),0.8
+(D) The Silence of the Lambs.",(D),1.0
 19,133,"Recommend a movie similar to the given list of movies.
 movie_list: Forrest Gump, Jurassic Park, Beauty and the Beast, Independence Day
 Options:
@@ -599,11 +599,11 @@ Options:
 (B) The Silence of the Lambs
 (C) The Bag Man
 (D) Extreme Measures
-Output:",(B),1.0
+Output:",(B),0.0
 20,64,"The task is to recommend a movie that is similar to Mr Holland's Opus, Dances with Wolves, The Shawshank Redemption, Forrest Gump from the following options: (A) The Great Gatsby
 (B) PK
 (C) Casper Meets Wendy
-(D) Philadelphia.",(D),1.0
+(D) Philadelphia.",(D),0.0
 20,69,"Based on the list of movies Forrest Gump, Dances with Wolves, The Shawshank Redemption, Mr Holland's Opus, suggest a movie that is similar.
 Choose from the following options: (A) The Great Gatsby
 (B) Philadelphia
@@ -616,7 +616,7 @@ Choose from the following options: (A) The Great Gatsby
 20,94,"Can you recommend a movie that is similar to Forrest Gump, The Shawshank Redemption, Mr Holland's Opus, Dances with Wolves? Here are your options: (A) PK
 (B) Philadelphia
 (C) The Great Gatsby
-(D) Casper Meets Wendy.",(B),0.8
+(D) Casper Meets Wendy.",(B),0.0
 20,139,"Given a list of movies Dances with Wolves, The Shawshank Redemption, Mr Holland's Opus, Forrest Gump, recommend a movie similar to them by selecting one of the options provided in (A) PK
 (B) Casper Meets Wendy
 (C) Philadelphia
@@ -627,14 +627,14 @@ Options:
 (A) Clash of the Titans
 (B) Independence Day
 (C) Fantastic Mr Fox
-(D) Who's Afraid of Virginia Woolf",(B),0.8
+(D) Who's Afraid of Virginia Woolf",(B),1.0
 21,17,"Q: Could you suggest a movie that is similar to Pulp Fiction, Raiders of the Lost Ark, Inception, Forrest Gump?
 Here are some options:
 (A) Clash of the Titans
 (B) Who's Afraid of Virginia Woolf
 (C) Fantastic Mr Fox
 (D) Independence Day
-A:",(D),1.0
+A:",(D),0.0
 21,87,"You are tasked with finding a movie that is similar to the list of movies provided in Raiders of the Lost Ark, Forrest Gump, Inception, Pulp Fiction. You will have to choose from a set of (A) Who's Afraid of Virginia Woolf
 (B) Independence Day
 (C) Fantastic Mr Fox
@@ -650,19 +650,19 @@ Options:
 (B) Who's Afraid of Virginia Woolf
 (C) Independence Day
 (D) Fantastic Mr Fox
-Output:",(C),1.0
+Output:",(C),0.0
 22,50,"Can you find a movie that is similar to Star Wars Episode VII - The Force Awakens, Inside Out, Raiders of the Lost Ark, Pulp Fiction? I have some options for you to choose from: (A) Forrest Gump
 (B) The Proposal
 (C) Everything You Always Wanted to Know About Sex  But Were Afraid to Ask
-(D) Ernest Rides Again.",(A),0.8
+(D) Ernest Rides Again.",(A),0.0
 22,77,"Please recommend movies that are similar to the following list of movies: Star Wars Episode VII - The Force Awakens, Raiders of the Lost Ark, Inside Out, Pulp Fiction. You can choose from the following options: (A) The Proposal
 (B) Ernest Rides Again
 (C) Forrest Gump
-(D) Everything You Always Wanted to Know About Sex  But Were Afraid to Ask.",(C),0.6
+(D) Everything You Always Wanted to Know About Sex  But Were Afraid to Ask.",(C),1.0
 22,79,"Can you suggest movies that are similar to the ones in Star Wars Episode VII - The Force Awakens, Inside Out, Pulp Fiction, Raiders of the Lost Ark? Here are your options: (A) The Proposal
 (B) Everything You Always Wanted to Know About Sex  But Were Afraid to Ask
 (C) Forrest Gump
-(D) Ernest Rides Again.",(C),0.8
+(D) Ernest Rides Again.",(C),1.0
 22,90,"I need a recommendation for a movie that is similar to Raiders of the Lost Ark, Pulp Fiction, Inside Out, Star Wars Episode VII - The Force Awakens. Please select one of the following options: (A) Ernest Rides Again
 (B) The Proposal
 (C) Everything You Always Wanted to Know About Sex  But Were Afraid to Ask
@@ -681,7 +681,7 @@ Choose from the following options:
 (B) Insomnia
 (C) The Fifth Element
 (D) Jurassic World Fallen Kingdom
-A:",(C),0.8
+A:",(C),1.0
 23,122,"Please recommend movies similar to the given list of movies. Choose the best option from the list of movies provided. 
 Movie list: The Matrix, Independence Day, Spider-Man 2, Spider-Man
 Options:
@@ -720,19 +720,19 @@ Options:
 (B) Raiders of the Lost Ark
 (C) The Doors
 (D) Quick Change
-A:",(B),1.0
+A:",(B),0.0
 24,66,"Recommend a movie that is similar to the list of movies Star Wars Episode IV - A New Hope, Mission Impossible, Star Wars Episode V - The Empire Strikes Back, Groundhog Day from the following options: (A) Raiders of the Lost Ark
 (B) View from the Top
 (C) Quick Change
-(D) The Doors.",(A),0.8
+(D) The Doors.",(A),1.0
 24,95,"I am looking for a movie that is similar to Star Wars Episode V - The Empire Strikes Back, Groundhog Day, Star Wars Episode IV - A New Hope, Mission Impossible. Please select an option from the following list: (A) The Doors
 (B) Raiders of the Lost Ark
 (C) Quick Change
-(D) View from the Top.",(B),1.0
+(D) View from the Top.",(B),0.0
 24,98,"Provide a recommendation for a movie similar to the list of movies provided in Mission Impossible, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Groundhog Day. You can choose from the following options: (A) Raiders of the Lost Ark
 (B) Quick Change
 (C) The Doors
-(D) View from the Top.",(A),0.8
+(D) View from the Top.",(A),1.0
 24,175,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the best option from the given set of movies.
 Movie list: Mission Impossible, Groundhog Day, Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back
 Options:
@@ -740,7 +740,7 @@ Options:
 (B) Raiders of the Lost Ark
 (C) The Doors
 (D) View from the Top
-Output:",(B),1.0
+Output:",(B),0.0
 25,2,"Q: Can you suggest a movie that is similar to Alien, Army of Darkness, The Sixth Sense, Go?
 Options:
 (A) Ice Guardians
@@ -796,7 +796,7 @@ A:",(B),1.0
 26,96,"Could you suggest a movie that is similar to Forrest Gump, Die Hard With a Vengeance, Jurassic Park, Apollo 13? You can choose from the following options: (A) The Last Man on Earth
 (B) Stealth
 (C) True Lies
-(D) Killer Movie.",(C),0.4
+(D) Killer Movie.",(C),1.0
 26,176,"Based on the list of movies you provided, which of the following options would you prefer to watch next?
 Movie list: Forrest Gump, Die Hard With a Vengeance, Apollo 13, Jurassic Park
 Options:
@@ -805,15 +805,15 @@ Options:
 (C) The Last Man on Earth
 (D) True Lies
 Output:
-Option selected:",(D),0.8
+Option selected:",(D),1.0
 27,52,"You have been asked to recommend a movie similar to Pulp Fiction, Schindler's List, Fargo, The Usual Suspects. You can choose from the following options: (A) The Shawshank Redemption
 (B) Stoked The Rise and Fall of Gator
 (C) Surviving the Game
-(D) Look Who's Talking.",(A),0.4
+(D) Look Who's Talking.",(A),1.0
 27,65,"Given a list of movies The Usual Suspects, Pulp Fiction, Fargo, Schindler's List, please recommend a movie that is similar to them from the following options: (A) Surviving the Game
 (B) Look Who's Talking
 (C) The Shawshank Redemption
-(D) Stoked The Rise and Fall of Gator.",(C),0.8
+(D) Stoked The Rise and Fall of Gator.",(C),1.0
 27,71,"Find a movie that shares similarities with the movies in Fargo, Pulp Fiction, Schindler's List, The Usual Suspects.
 Choose an option from the list below: (A) Surviving the Game
 (B) The Shawshank Redemption
@@ -834,7 +834,7 @@ Options:
 (B) The Shawshank Redemption
 (C) Look Who's Talking
 (D) Stoked The Rise and Fall of Gator
-Output:",(B),0.8
+Output:",(B),0.0
 28,1,"Q: Can you suggest a movie that is similar to any of the following movies: The Lion King, The Mask, Batman, Toy Story?
 Options:
 (A) Punch-Drunk Love
@@ -870,7 +870,7 @@ Options:
 (B) Seeking Justice
 (C) Punch-Drunk Love
 (D) Exit Wounds
-Output:",(A),0.6
+Output:",(A),0.8
 29,22,"Q: Can you suggest a movie similar to Pulp Fiction, Braveheart, Schindler's List, The Shawshank Redemption? Choose from the following options:
 Options:
 (A) The Family Stone
@@ -883,7 +883,7 @@ A:",(B),1.0
 (B) The Family Stone
 (C) Dances with Wolves
 (D) Robot Carnival
-A:",(C),0.8
+A:",(C),0.0
 29,79,"Can you suggest movies that are similar to the ones in The Shawshank Redemption, Schindler's List, Pulp Fiction, Braveheart? Here are your options: (A) Robot Carnival
 (B) The Family Stone
 (C) Dances with Wolves
@@ -891,7 +891,7 @@ A:",(C),0.8
 29,89,"Given the list of movies Schindler's List, The Shawshank Redemption, Braveheart, Pulp Fiction, please recommend a movie that is similar to them. You can choose from the following options: (A) The Family Stone
 (B) Dances with Wolves
 (C) Robot Carnival
-(D) The Bank Job.",(B),0.8
+(D) The Bank Job.",(B),1.0
 29,102,"Your task is to find a movie that is similar to Pulp Fiction, Braveheart, The Shawshank Redemption, Schindler's List. You will be given the following options to choose from: (A) Robot Carnival
 (B) The Bank Job
 (C) The Family Stone
@@ -900,7 +900,7 @@ A:",(C),0.8
 Select one of the following options: (A) Noises Off
 (B) The Fugitive
 (C) Lights Out
-(D) Care Bears Movie II A New Generation",(B),0.8
+(D) Care Bears Movie II A New Generation",(B),1.0
 30,151,"Based on your movie preferences, we can recommend similar movies for you to watch. Choose the movie that you think is most similar to the given list of movies.
 Given list of movies: The Silence of the Lambs, Indiana Jones and the Temple of Doom, Fargo, Independence Day
 Options:
@@ -908,7 +908,7 @@ Options:
 (B) Care Bears Movie II A New Generation
 (C) Lights Out
 (D) Noises Off
-Output:",(A),0.8
+Output:",(A),1.0
 30,165,"Based on the movies you provided, we have some recommendations for you! Which of the following options do you think you would enjoy watching next?
 Movie list: Fargo, The Silence of the Lambs, Indiana Jones and the Temple of Doom, Independence Day
 Options:
@@ -916,7 +916,7 @@ Options:
 (B) Noises Off
 (C) The Fugitive
 (D) Care Bears Movie II A New Generation
-Output:",(C),0.8
+Output:",(C),1.0
 30,169,"Based on your movie preferences, I can recommend a similar movie for you to watch. Please provide me with a list of movies you enjoyed and a set of options to choose from.
 Movie list: Independence Day, Fargo, Indiana Jones and the Temple of Doom, The Silence of the Lambs
 Options:
@@ -939,7 +939,7 @@ Options:
 (B) Europa
 (C) The Last Kiss
 (D) Rise of the Planet of the Apes
-A:",(A),0.8
+A:",(A),0.0
 31,59,"The task is to find a movie that is similar to Apollo 13, Batman, Schindler's List, Pulp Fiction. The options available are: (A) Braveheart
 (B) Rise of the Planet of the Apes
 (C) The Last Kiss
@@ -951,7 +951,7 @@ A:",(A),0.8
 31,81,"Your task is to recommend a movie similar to the list of movies provided in Pulp Fiction, Schindler's List, Batman, Apollo 13. You will be given a set of (A) Rise of the Planet of the Apes
 (B) Europa
 (C) Braveheart
-(D) The Last Kiss to choose from.",(C),0.8
+(D) The Last Kiss to choose from.",(C),1.0
 31,170,"Based on your movie preferences, I can recommend a similar movie for you. Please provide me with a list of movies you enjoyed and a set of options to choose from.
 Movies: Schindler's List, Apollo 13, Pulp Fiction, Batman
 Options:
@@ -974,7 +974,7 @@ Options:
 (B) City of Men
 (C) Mad City
 (D) The Shawshank Redemption
-A:",(D),0.8
+A:",(D),1.0
 32,96,"Could you suggest a movie that is similar to Schindler's List, The Lion King, The Fugitive, Braveheart? You can choose from the following options: (A) Mad City
 (B) City of Men
 (C) The Shawshank Redemption
@@ -986,7 +986,7 @@ Options:
 (B) The Shawshank Redemption
 (C) The Scorpion King
 (D) City of Men
-Output:",(B),0.8
+Output:",(B),1.0
 32,148,"Given a list of movies, recommend the movie that is most similar to them. Choose the option that you think is the best match from the provided list of movies.
 List of movies: Schindler's List, The Fugitive, Braveheart, The Lion King
 Options:
@@ -994,15 +994,15 @@ Options:
 (B) The Shawshank Redemption
 (C) The Scorpion King
 (D) Mad City
-Output:",(B),0.8
+Output:",(B),1.0
 33,62,"The goal is to find a movie that is similar to Braveheart, Schindler's List, Dances with Wolves, Pulp Fiction. You can choose from the following options: (A) Tickling Giants
 (B) Shadow of the Vampire
 (C) The Usual Suspects
-(D) On the Town. Please suggest a movie from these options.",(C),0.8
+(D) On the Town. Please suggest a movie from these options.",(C),1.0
 33,94,"Can you recommend a movie that is similar to Dances with Wolves, Pulp Fiction, Braveheart, Schindler's List? Here are your options: (A) On the Town
 (B) Tickling Giants
 (C) Shadow of the Vampire
-(D) The Usual Suspects.",(D),0.8
+(D) The Usual Suspects.",(D),1.0
 33,112,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to choose an option from a list of movies provided as options.
 List of movies: Dances with Wolves, Schindler's List, Pulp Fiction, Braveheart
 Options:
@@ -1018,7 +1018,7 @@ Options:
 (B) Shadow of the Vampire
 (C) The Usual Suspects
 (D) On the Town
-Output:",(C),1.0
+Output:",(C),0.0
 33,148,"Given a list of movies, recommend the movie that is most similar to them. Choose the option that you think is the best match from the provided list of movies.
 List of movies: Schindler's List, Braveheart, Pulp Fiction, Dances with Wolves
 Options:
@@ -1057,14 +1057,14 @@ Options:
 (B) Nothing to Declare
 (C) Crossfire
 (D) End of Days
-Output:",(A),0.6
+Output:",(A),1.0
 35,32,"Q: Can you recommend a movie that is similar to the following Star Wars Episode IV - A New Hope, Raiders of the Lost Ark, The Silence of the Lambs, Goodfellas:
 Options:
 (A) Monty Python and the Holy Grail
 (B) An
 (C) Weekend at Bernie's
 (D) American in Paris
-A:",(A),0.8
+A:",(A),0.0
 35,63,"Please find a movie that is similar to The Silence of the Lambs, Raiders of the Lost Ark, Goodfellas, Star Wars Episode IV - A New Hope from the following options: (A) American in Paris
 (B) Weekend at Bernie's
 (C) Monty Python and the Holy Grail
@@ -1096,14 +1096,14 @@ Options:
 (B) Elizabethtown
 (C) All Over the Guy
 (D) The Bride of Frankenstein
-A:",(A),0.8
+A:",(A),1.0
 36,39,"Q: Can you recommend a movie that is similar to the following The Fugitive, Pulp Fiction, The Shawshank Redemption, Dances with Wolves?
 Options:
 (A) The Bride of Frankenstein
 (B) Elizabethtown
 (C) All Over the Guy
 (D) Forrest Gump
-A:",(D),0.8
+A:",(D),1.0
 36,80,"I am looking for movies that are similar to The Shawshank Redemption, Pulp Fiction, Dances with Wolves, The Fugitive. Please select from the following options: (A) Forrest Gump
 (B) The Bride of Frankenstein
 (C) All Over the Guy
@@ -1115,7 +1115,7 @@ Options:
 (B) The Bride of Frankenstein
 (C) All Over the Guy
 (D) Forrest Gump
-Output:",(D),0.8
+Output:",(D),1.0
 36,160,"Based on a list of movies, recommend a similar movie from the following options. Choose the movie that is most similar to the given list.
 List of movies: The Shawshank Redemption, Dances with Wolves, The Fugitive, Pulp Fiction
 Options:
@@ -1142,7 +1142,7 @@ A:",(A),0.0
 37,84,"Your goal is to recommend a movie that is similar to the list of movies provided in Forrest Gump, Jurassic Park, Schindler's List, The Silence of the Lambs. You will have to choose from a set of (A) Batman
 (B) A Tale of Two Cities
 (C) Alien Resurrection
-(D) The Quiet American.",(A),1.0
+(D) The Quiet American.",(A),0.0
 37,158,"Given a list of movies, recommend a movie that is most similar to the given list. Choose the correct option from the list of movies provided.
 List of movies: Forrest Gump, The Silence of the Lambs, Schindler's List, Jurassic Park
 Options:
@@ -1168,7 +1168,7 @@ A:",(A),1.0
 38,88,"Please suggest a movie that is similar to Pulp Fiction, The Lion King, Aladdin, The Shawshank Redemption. You can choose from the following options: (A) Detachment
 (B) Ruby Sparks
 (C) Terminator 2 Judgment Day
-(D) The Next Three Days.",(C),0.8
+(D) The Next Three Days.",(C),1.0
 38,125,"Recommend a movie similar to the given list of movies. Choose from the list of movie options provided.
 Movie list: Aladdin, Pulp Fiction, The Lion King, The Shawshank Redemption
 Options:
@@ -1184,7 +1184,7 @@ Options:
 (B) Ruby Sparks
 (C) Terminator 2 Judgment Day
 (D) The Next Three Days
-Output:",(C),0.8
+Output:",(C),1.0
 39,22,"Q: Can you suggest a movie similar to Batman, The Mask, Terminator 2 Judgment Day, Aladdin? Choose from the following options:
 Options:
 (A) Pretty Woman
@@ -1230,7 +1230,7 @@ Output:",(C),0.0
 (B) When Worlds Collide
 (C) Dredd
 (D) Brave
-A:",(A),0.8
+A:",(A),1.0
 40,58,"Given a list of movies Braveheart, Gattaca, Pulp Fiction, Saving Private Ryan, please suggest a movie that is similar to them from the following options: (A) Go
 (B) Brave
 (C) Dredd
@@ -1238,11 +1238,11 @@ A:",(A),0.8
 40,72,"Please recommend a movie that is similar to Braveheart, Pulp Fiction, Saving Private Ryan, Gattaca. You can choose from the following options: (A) Brave
 (B) When Worlds Collide
 (C) Go
-(D) Dredd.",(C),0.8
+(D) Dredd.",(C),1.0
 40,76,"From the list of movies Braveheart, Pulp Fiction, Gattaca, Saving Private Ryan, please recommend a movie that is similar to them. You can choose from the following options: (A) When Worlds Collide
 (B) Dredd
 (C) Brave
-(D) Go.",(D),0.8
+(D) Go.",(D),1.0
 40,118,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to select the movie that is most similar to the given list of movies.
 List of movies: Gattaca, Braveheart, Saving Private Ryan, Pulp Fiction
 Options:
@@ -1269,7 +1269,7 @@ Options:
 (B) Deuce Bigalow Male Gigolo
 (C) Louis CK Oh My God
 (D) Music and Lyrics
-Output:",(A),0.8
+Output:",(A),1.0
 41,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: Dead Man Walking, The Shawshank Redemption, Braveheart, Terminator 2 Judgment Day
 Options:
@@ -1277,7 +1277,7 @@ Options:
 (B) Deuce Bigalow Male Gigolo
 (C) Music and Lyrics
 (D) The Fugitive
-Output:",(D),0.8
+Output:",(D),1.0
 41,175,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the best option from the given set of movies.
 Movie list: The Shawshank Redemption, Braveheart, Dead Man Walking, Terminator 2 Judgment Day
 Options:
@@ -1292,7 +1292,7 @@ Options:
 (B) Schindler's List
 (C) Day for Night
 (D) The Neon Demon
-A:",(B),0.8
+A:",(B),1.0
 42,23,"Q: Can you recommend a movie that is similar to the ones in The Shawshank Redemption, Dances with Wolves, The Lion King, The Fugitive?
 Options:
 (A) Schindler's List
@@ -1306,11 +1306,11 @@ Options:
 (B) Man of the House
 (C) Schindler's List
 (D) Day for Night
-A:",(C),0.8
+A:",(C),1.0
 42,56,"Your goal is to recommend a movie that is similar to The Shawshank Redemption, Dances with Wolves, The Fugitive, The Lion King. You will be presented with a list of options, and you need to choose the one that fits the best. The options are: (A) The Neon Demon
 (B) Schindler's List
 (C) Day for Night
-(D) Man of the House.",(B),0.8
+(D) Man of the House.",(B),1.0
 42,120,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to choose the correct answer from a list of movies.
 List of movies: Dances with Wolves, The Fugitive, The Lion King, The Shawshank Redemption
 Options:
@@ -1332,11 +1332,11 @@ Options:
 (B) The Fugitive
 (C) Toy Soldiers
 (D) Baxter
-A:",(B),0.6
+A:",(B),1.0
 43,80,"I am looking for movies that are similar to The Shawshank Redemption, The Usual Suspects, Pulp Fiction, Interview with the Vampire The Vampire Chronicles. Please select from the following options: (A) The Fugitive
 (B) Toy Soldiers
 (C) The Wasp Woman
-(D) Baxter.",(A),0.8
+(D) Baxter.",(A),1.0
 43,119,"Recommend movies similar to a given list of movies. You will be presented with a list of options and asked to select the movie that is most similar to the given list.
 List of movies: Interview with the Vampire The Vampire Chronicles, Pulp Fiction, The Shawshank Redemption, The Usual Suspects
 Options:
@@ -1344,7 +1344,7 @@ Options:
 (B) The Fugitive
 (C) Baxter
 (D) Toy Soldiers
-Output:",(B),0.8
+Output:",(B),1.0
 43,136,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the best option from the following set of movies: (A) Baxter
 (B) Toy Soldiers
 (C) The Wasp Woman
@@ -1355,7 +1355,7 @@ Options:
 (B) Toy Soldiers
 (C) The Wasp Woman
 (D) The Fugitive
-Output:",(D),0.8
+Output:",(D),1.0
 44,0,"Q: Find a movie similar to The Fugitive, Stargate, Dances with Wolves, Pulp Fiction:
 Options:
 (A) Stand and Deliver
@@ -1369,7 +1369,7 @@ Please choose from the following options:
 (B) Kevin Smith Too Fat For 40
 (C) Stand and Deliver
 (D) Scorched
-A:",(A),1.0
+A:",(A),0.0
 44,86,"The objective of this task is to recommend a movie that is similar to the list of movies provided in Stargate, Dances with Wolves, Pulp Fiction, The Fugitive. You will be presented with a set of (A) Stand and Deliver
 (B) Scorched
 (C) Kevin Smith Too Fat For 40
@@ -1386,7 +1386,7 @@ Which of the following movies is similar to The Fugitive, Dances with Wolves, Pu
 (B) Stand and Deliver
 (C) Kevin Smith Too Fat For 40
 (D) Forrest Gump
-Answer:",(D),0.8
+Answer:",(D),1.0
 44,155,"Based on a list of movies, recommend a similar movie from a set of options. Choose the option that best matches the given list.
 List of movies: Dances with Wolves, Stargate, The Fugitive, Pulp Fiction
 Options:
@@ -1394,25 +1394,25 @@ Options:
 (B) Kevin Smith Too Fat For 40
 (C) Scorched
 (D) Stand and Deliver
-Output:",(A),0.8
+Output:",(A),1.0
 45,8,"Q: Can you suggest a movie that is similar to the following The Shawshank Redemption, The Fugitive, Schindler's List, Beauty and the Beast:
 Here are some options:
 (A) Universal Soldier Day of Reckoning
 (B) Space Truckers
 (C) The Lion King
 (D) Urban Cowboy
-A:",(C),0.8
+A:",(C),1.0
 45,25,"Q: Can you suggest a movie similar to Schindler's List, Beauty and the Beast, The Fugitive, The Shawshank Redemption?
 Please choose from the following options:
 (A) Universal Soldier Day of Reckoning
 (B) Space Truckers
 (C) The Lion King
 (D) Urban Cowboy
-A:",(C),0.8
+A:",(C),1.0
 45,74,"Your task is to find a movie similar to The Fugitive, Schindler's List, Beauty and the Beast, The Shawshank Redemption. You have the following options to choose from: (A) Space Truckers
 (B) Urban Cowboy
 (C) The Lion King
-(D) Universal Soldier Day of Reckoning.",(C),1.0
+(D) Universal Soldier Day of Reckoning.",(C),0.0
 45,94,"Can you recommend a movie that is similar to The Fugitive, Beauty and the Beast, The Shawshank Redemption, Schindler's List? Here are your options: (A) Urban Cowboy
 (B) The Lion King
 (C) Universal Soldier Day of Reckoning
@@ -1425,21 +1425,21 @@ Options:
 (C) Urban Cowboy
 (D) Universal Soldier Day of Reckoning
 Output:
-Option selected:",(A),0.8
+Option selected:",(A),0.0
 46,21,"Q: Can you suggest a movie that is similar to the following: Snow White and the Seven Dwarfs, The Lion King, The Secret Garden, Beauty and the Beast?
 Listed below are your options:
 (A) Pinocchio
 (B) Lights in the Dusk
 (C) The Thing
 (D) Nymphomaniac Volume I
-A:",(A),0.8
+A:",(A),0.0
 46,23,"Q: Can you recommend a movie that is similar to the ones in Snow White and the Seven Dwarfs, The Secret Garden, The Lion King, Beauty and the Beast?
 Options:
 (A) The Thing
 (B) Nymphomaniac Volume I
 (C) Pinocchio
 (D) Lights in the Dusk
-A:",(C),1.0
+A:",(C),0.0
 46,114,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a list of movies to choose from, and you must select the movie that is most similar to the given list.
 List of movies: Snow White and the Seven Dwarfs, The Lion King, The Secret Garden, Beauty and the Beast
 Options:
@@ -1447,7 +1447,7 @@ Options:
 (B) The Thing
 (C) Nymphomaniac Volume I
 (D) Pinocchio
-Output:",(D),0.6
+Output:",(D),1.0
 46,148,"Given a list of movies, recommend the movie that is most similar to them. Choose the option that you think is the best match from the provided list of movies.
 List of movies: Snow White and the Seven Dwarfs, The Lion King, The Secret Garden, Beauty and the Beast
 Options:
@@ -1463,7 +1463,7 @@ Options:
 (B) Nymphomaniac Volume I
 (C) The Thing
 (D) Pinocchio
-Output:",(D),0.4
+Output:",(D),1.0
 47,38,"Q: Can you recommend a movie similar to one of these Raiders of the Lost Ark, The Matrix, Gattaca, Gladiator:
 Options:
 (A) The Fifth Element
@@ -1490,7 +1490,7 @@ Options:
 (B) The Fifth Element
 (C) Swimming Pool
 (D) Maggie's Plan
-Output:",(B),0.8
+Output:",(B),1.0
 47,141,"Looking for movie recommendations? We've got you covered! Simply provide us with a list of movies you love, and we'll suggest similar movies for you to enjoy. Choose the option that best matches your preferences and get ready for a great movie night!
 List of movies: Gattaca, The Matrix, Raiders of the Lost Ark, Gladiator
 Options:
@@ -1516,12 +1516,12 @@ A:",(D),1.0
 48,64,"The task is to recommend a movie that is similar to Pretty Woman, The Lion King, The Mask, Batman from the following options: (A) The Fugitive
 (B) Gintama The Final Chapter - Be Forever Yorozuya
 (C) Doctor Who Last Christmas
-(D) Los Angeles Plays Itself.",(A),0.8
+(D) Los Angeles Plays Itself.",(A),1.0
 48,67,"Find a movie that is similar to the movies in Pretty Woman, The Mask, Batman, The Lion King.
 Choose an option from the following: (A) Doctor Who Last Christmas
 (B) Los Angeles Plays Itself
 (C) The Fugitive
-(D) Gintama The Final Chapter - Be Forever Yorozuya",(C),0.8
+(D) Gintama The Final Chapter - Be Forever Yorozuya",(C),1.0
 48,159,"Based on your movie preferences, we can recommend similar movies for you to watch. Please select the movie from the list below that is most similar to the movies you have enjoyed watching.
 Given list of movies: Batman, Pretty Woman, The Mask, The Lion King
 Options:
@@ -1529,7 +1529,7 @@ Options:
 (B) Doctor Who Last Christmas
 (C) The Fugitive
 (D) Los Angeles Plays Itself
-Output:",(C),0.6
+Output:",(C),1.0
 49,23,"Q: Can you recommend a movie that is similar to the ones in Braveheart, Schindler's List, Dances with Wolves, The Lion King?
 Options:
 (A) Crush
@@ -1540,7 +1540,7 @@ A:",(B),1.0
 49,52,"You have been asked to recommend a movie similar to Dances with Wolves, The Lion King, Braveheart, Schindler's List. You can choose from the following options: (A) The Shawshank Redemption
 (B) Poltergeist III
 (C) Crush
-(D) Pickup on South Street.",(A),0.6
+(D) Pickup on South Street.",(A),1.0
 49,134,"Find a movie similar to a given list of movies. Choose the option that best matches the given list of movies.
 Movie list: Schindler's List, Dances with Wolves, The Lion King, Braveheart
 Options:
@@ -1556,7 +1556,7 @@ Options:
 (B) The Shawshank Redemption
 (C) Pickup on South Street
 (D) Crush
-Output:",(B),0.8
+Output:",(B),0.0
 49,179,"Recommend a movie similar to a given list of movies.
 Q: Find a movie similar to The Lion King, Dances with Wolves, Schindler's List, Braveheart:
 Options:
@@ -1585,7 +1585,7 @@ Options:
 (B) Moonlight Mile
 (C) Hollywood Homicide
 (D) Dragon Ball The Curse Of The Blood Rubies
-A:",(A),0.8
+A:",(A),1.0
 50,38,"Q: Can you recommend a movie similar to one of these Austin Powers International Man of Mystery, American Beauty, Mission Impossible, Star Wars Episode V - The Empire Strikes Back:
 Options:
 (A) Hollywood Homicide
@@ -1603,7 +1603,7 @@ Pick from the following options:
 (B) Independence Day
 (C) The American President
 (D) Dracula Dead and Loving It
-A:",(B),1.0
+A:",(B),0.0
 51,52,"You have been asked to recommend a movie similar to The Terminator, Star Wars Episode IV - A New Hope, Toy Story, Rocky. You can choose from the following options: (A) The American President
 (B) Dracula Dead and Loving It
 (C) Independence Day
@@ -1611,7 +1611,7 @@ A:",(B),1.0
 51,99,"Given a list of movies in Rocky, The Terminator, Star Wars Episode IV - A New Hope, Toy Story, please recommend a movie that is similar to them. You can select from the following options: (A) The American President
 (B) Dracula Dead and Loving It
 (C) Independence Day
-(D) The Extraordinary Adventures of Adèle Blanc-Sec.",(C),0.8
+(D) The Extraordinary Adventures of Adèle Blanc-Sec.",(C),1.0
 51,124,"Given a list of movies and a set of movie options, recommend movies similar to the given list of movies. The task format is multi_choice.
 List of movies: Rocky, Star Wars Episode IV - A New Hope, The Terminator, Toy Story
 Options:
@@ -1619,7 +1619,7 @@ Options:
 (B) The American President
 (C) The Extraordinary Adventures of Adèle Blanc-Sec
 (D) Dracula Dead and Loving It
-Output:",(A),0.6
+Output:",(A),1.0
 51,162,"Based on a list of movies, recommend a similar movie from the given options.
 Movie list: Star Wars Episode IV - A New Hope, Toy Story, Rocky, The Terminator
 Options:
@@ -1627,7 +1627,7 @@ Options:
 (B) The Extraordinary Adventures of Adèle Blanc-Sec
 (C) The American President
 (D) Dracula Dead and Loving It
-Output:",(A),1.0
+Output:",(A),0.0
 52,7,"Q: Can you suggest a movie that is similar to the movies in Crimson Tide, Braveheart, The Usual Suspects, The Fugitive?
 Options:
 (A) Pillow Talk
@@ -1665,7 +1665,7 @@ Output:",(C),0.0
 Choose an option from the following: (A) Psycho II
 (B) My Fellow Americans
 (C) Shadow of the Vampire
-(D) Star Wars Episode VII - The Force Awakens",(D),0.6
+(D) Star Wars Episode VII - The Force Awakens",(D),1.0
 53,103,"To complete this task, you need to recommend a movie that is similar to Back to the Future, Inception, Monsters, Interstellar, Inc. You will be provided with the following options to choose from: (A) Shadow of the Vampire
 (B) Psycho II
 (C) My Fellow Americans
@@ -1677,7 +1677,7 @@ Options:
 (B) Psycho II
 (C) Star Wars Episode VII - The Force Awakens
 (D) My Fellow Americans
-Output:",(C),0.6
+Output:",(C),1.0
 53,139,"Given a list of movies Back to the Future, Inc, Interstellar, Inception, Monsters, recommend a movie similar to them by selecting one of the options provided in (A) Shadow of the Vampire
 (B) Psycho II
 (C) My Fellow Americans
@@ -1716,7 +1716,7 @@ Options:
 (B) Microwave Massacre
 (C) The Mask
 (D) Pleasantville
-Output:",(C),0.8
+Output:",(C),1.0
 54,139,"Given a list of movies Batman, Independence Day, Jurassic Park, Forrest Gump, recommend a movie similar to them by selecting one of the options provided in (A) Pleasantville
 (B) To Catch a Thief
 (C) Microwave Massacre
@@ -1728,7 +1728,7 @@ Options:
 (B) Hawks and Sparrows
 (C) The Scent of Green Papaya
 (D) Le Maître d'école
-A:",(A),0.8
+A:",(A),1.0
 55,118,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to select the movie that is most similar to the given list of movies.
 List of movies: The Lion King, Aladdin, Terminator 2 Judgment Day, Pulp Fiction
 Options:
@@ -1768,11 +1768,11 @@ A:",(D),1.0
 57,66,"Recommend a movie that is similar to the list of movies Star Wars Episode IV - A New Hope, Monty Python and the Holy Grail, Star Wars Episode V - The Empire Strikes Back, The Silence of the Lambs from the following options: (A) Goodfellas
 (B) Child's Play 3
 (C) Chocolat
-(D) Some Kind of Wonderful.",(A),0.8
+(D) Some Kind of Wonderful.",(A),1.0
 57,72,"Please recommend a movie that is similar to Star Wars Episode IV - A New Hope, Monty Python and the Holy Grail, Star Wars Episode V - The Empire Strikes Back, The Silence of the Lambs. You can choose from the following options: (A) Child's Play 3
 (B) Goodfellas
 (C) Chocolat
-(D) Some Kind of Wonderful.",(B),0.8
+(D) Some Kind of Wonderful.",(B),1.0
 57,73,"Given a list of movies Monty Python and the Holy Grail, Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back, The Silence of the Lambs, please suggest a movie that is similar to them. You can choose from the following options: (A) Chocolat
 (B) Goodfellas
 (C) Some Kind of Wonderful
@@ -1824,7 +1824,7 @@ Options:
 (B) Inception
 (C) The Da Vinci Code
 (D) Identity Thief
-A:",(B),0.8
+A:",(B),1.0
 59,28,"Q: Can you recommend a movie similar to the following list: Forrest Gump, The Silence of the Lambs, The Dark Knight, Pulp Fiction? Choose from the following options:
 Options:
 (A) Identity Thief
@@ -1835,11 +1835,11 @@ A:",(B),1.0
 59,58,"Given a list of movies Pulp Fiction, Forrest Gump, The Dark Knight, The Silence of the Lambs, please suggest a movie that is similar to them from the following options: (A) War for the Planet of the Apes
 (B) Identity Thief
 (C) The Da Vinci Code
-(D) Inception.",(D),0.8
+(D) Inception.",(D),1.0
 59,73,"Given a list of movies Pulp Fiction, Forrest Gump, The Dark Knight, The Silence of the Lambs, please suggest a movie that is similar to them. You can choose from the following options: (A) Inception
 (B) War for the Planet of the Apes
 (C) The Da Vinci Code
-(D) Identity Thief.",(A),0.8
+(D) Identity Thief.",(A),0.0
 59,113,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you must select the movie that is most similar to the given list.
 List of movies: The Dark Knight, Forrest Gump, Pulp Fiction, The Silence of the Lambs
 Options:
@@ -1847,27 +1847,27 @@ Options:
 (B) Inception
 (C) Identity Thief
 (D) War for the Planet of the Apes
-Output:",(B),0.8
+Output:",(B),1.0
 60,12,"Q: Can you recommend a movie similar to Braveheart, Schindler's List, Pulp Fiction, The Usual Suspects?
 Here are some options:
 (A) The Shawshank Redemption
 (B) Taxi
 (C) The Cabinet of Dr Caligari
 (D) Spider-Man 2
-A:",(A),0.6
+A:",(A),1.0
 60,34,"Q: Please suggest a movie that is similar to any of the following movies: Pulp Fiction, Braveheart, The Usual Suspects, Schindler's List.
 Options:
 (A) Taxi
 (B) The Shawshank Redemption
 (C) The Cabinet of Dr Caligari
 (D) Spider-Man 2
-A:",(B),1.0
+A:",(B),0.0
 60,43,"Q: Can you recommend a movie that is similar to The Usual Suspects, Braveheart, Schindler's List, Pulp Fiction?
 Please choose from the following options:
 (A) Taxi
 (B) Spider-Man 2
 (C) The Shawshank Redemption
-(D) The Cabinet of Dr Caligari",(C),0.8
+(D) The Cabinet of Dr Caligari",(C),1.0
 60,111,"Given a list of movies, recommend a movie that is most similar to the given list. You will be provided with a list of movies as options, and you must choose the movie that is most similar to the given list.
 List of movies: Braveheart, Pulp Fiction, Schindler's List, The Usual Suspects
 Options:
@@ -1901,7 +1901,7 @@ A:",(C),1.0
 61,64,"The task is to recommend a movie that is similar to The Usual Suspects, The Shawshank Redemption, Braveheart, The Fugitive from the following options: (A) Crimson Tide
 (B) Boy
 (C) Swiss Family Robinson
-(D) And Then There Were None.",(A),0.8
+(D) And Then There Were None.",(A),1.0
 61,154,"Given a list of movies, recommend a similar movie from the following options. Select the option that you think is most similar to the given list of movies.
 List of movies: The Fugitive, Braveheart, The Usual Suspects, The Shawshank Redemption
 Options:
@@ -1957,7 +1957,7 @@ Options:
 (B) Terminator 2 Judgment Day
 (C) Everlasting Piece
 (D) Cloverfield
-A:",(B),0.8
+A:",(B),1.0
 63,41,"Q: Can you recommend a movie similar to Pretty Woman, The Lion King, Batman, Aladdin? Choose one from the following options:
 Options:
 (A) Everlasting Piece
@@ -1977,7 +1977,7 @@ Which of the following movies is similar to Batman, Aladdin, Pretty Woman, The L
 (B) Cloverfield
 (C) Everlasting Piece
 (D) An
-Answer:",(A),0.8
+Answer:",(A),1.0
 63,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: Pretty Woman, The Lion King, Aladdin, Batman
 Options:
@@ -1985,7 +1985,7 @@ Options:
 (B) Cloverfield
 (C) An
 (D) Terminator 2 Judgment Day
-Output:",(D),0.8
+Output:",(D),1.0
 63,174,"Based on the list of movies provided, recommend a movie that is similar to any of the movies in the list. Choose the best option from the set of movies provided.
 Movie list: Pretty Woman, Aladdin, The Lion King, Batman
 Options:
@@ -1993,7 +1993,7 @@ Options:
 (B) Terminator 2 Judgment Day
 (C) An
 (D) Everlasting Piece
-Output:",(B),0.8
+Output:",(B),1.0
 64,9,"Q: Can you suggest a movie that is similar to The Wizard of Oz, The Big Lebowski, Being John Malkovich, Run Lola Run?
 Choose from the following options:
 (A) The Omega Man
@@ -2074,11 +2074,11 @@ Here are some options:
 (B) The Shawshank Redemption
 (C) The Flamingo Kid
 (D) Pokémon Heroes
-A:",(B),1.0
+A:",(B),0.0
 67,99,"Given a list of movies in Apollo 13, Dances with Wolves, Pretty Woman, Braveheart, please recommend a movie that is similar to them. You can select from the following options: (A) Batman Assault on Arkham
 (B) Pokémon Heroes
 (C) The Flamingo Kid
-(D) The Shawshank Redemption.",(D),1.0
+(D) The Shawshank Redemption.",(D),0.0
 67,124,"Given a list of movies and a set of movie options, recommend movies similar to the given list of movies. The task format is multi_choice.
 List of movies: Apollo 13, Dances with Wolves, Braveheart, Pretty Woman
 Options:
@@ -2086,7 +2086,7 @@ Options:
 (B) The Shawshank Redemption
 (C) Batman Assault on Arkham
 (D) Pokémon Heroes
-Output:",(B),0.8
+Output:",(B),1.0
 67,171,"Given a list of movies, recommend a similar movie from a set of options.
 Movie list: Pretty Woman, Apollo 13, Dances with Wolves, Braveheart
 Options:
@@ -2095,7 +2095,7 @@ Options:
 (C) The Shawshank Redemption
 (D) The Flamingo Kid
 Output:
-Recommended movie:",(C),0.8
+Recommended movie:",(C),1.0
 67,177,"Choose a movie similar to the given list of movies from the options provided.
 Movie list: Pretty Woman, Apollo 13, Dances with Wolves, Braveheart
 Options:
@@ -2103,7 +2103,7 @@ Options:
 (B) Batman Assault on Arkham
 (C) The Shawshank Redemption
 (D) The Flamingo Kid
-Output:",(C),0.8
+Output:",(C),1.0
 68,82,"Given a list of movies in Terminator 2 Judgment Day, Forrest Gump, Pulp Fiction, Braveheart, recommend a movie that is similar to them. You will be provided with a set of (A) The Fugitive
 (B) Insidious Chapter 3
 (C) Ruby & Quentin
@@ -2111,7 +2111,7 @@ Output:",(C),0.8
 68,95,"I am looking for a movie that is similar to Pulp Fiction, Forrest Gump, Braveheart, Terminator 2 Judgment Day. Please select an option from the following list: (A) Insidious Chapter 3
 (B) The Fugitive
 (C) Ruby & Quentin
-(D) Fast Times at Ridgemont High.",(B),0.6
+(D) Fast Times at Ridgemont High.",(B),1.0
 68,125,"Recommend a movie similar to the given list of movies. Choose from the list of movie options provided.
 Movie list: Pulp Fiction, Terminator 2 Judgment Day, Forrest Gump, Braveheart
 Options:
@@ -2119,7 +2119,7 @@ Options:
 (B) The Fugitive
 (C) Ruby & Quentin
 (D) Fast Times at Ridgemont High
-Output:",(B),0.8
+Output:",(B),1.0
 68,128,"Given a 'movie_list' and a list of 'options', recommend movies similar to the movies in the 'movie_list'. The task format is multi-choice.
 movie_list: Pulp Fiction, Terminator 2 Judgment Day, Braveheart, Forrest Gump
 options: (A) Ruby & Quentin
@@ -2140,18 +2140,18 @@ Options:
 (B) The Fugitive
 (C) Ruby & Quentin
 (D) Fast Times at Ridgemont High
-Output:",(B),0.8
+Output:",(B),1.0
 69,41,"Q: Can you recommend a movie similar to Braveheart, Forrest Gump, Pulp Fiction, The Fugitive? Choose one from the following options:
 Options:
 (A) Bring It On All or Nothing
 (B) Dead Alive
 (C) Little Women
 (D) Dances with Wolves
-A:",(D),0.8
+A:",(D),1.0
 69,59,"The task is to find a movie that is similar to The Fugitive, Pulp Fiction, Forrest Gump, Braveheart. The options available are: (A) Dead Alive
 (B) Dances with Wolves
 (C) Bring It On All or Nothing
-(D) Little Women. Please suggest a movie from these options.",(B),0.8
+(D) Little Women. Please suggest a movie from these options.",(B),1.0
 69,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: The Fugitive, Pulp Fiction, Braveheart, Forrest Gump
 Options:
@@ -2159,7 +2159,7 @@ Options:
 (B) Dances with Wolves
 (C) Bring It On All or Nothing
 (D) Little Women
-Output:",(B),0.8
+Output:",(B),1.0
 69,148,"Given a list of movies, recommend the movie that is most similar to them. Choose the option that you think is the best match from the provided list of movies.
 List of movies: Forrest Gump, Pulp Fiction, The Fugitive, Braveheart
 Options:
@@ -2175,22 +2175,22 @@ Options:
 (B) Dead Alive
 (C) Little Women
 (D) Dances with Wolves
-Output:",(D),0.8
+Output:",(D),1.0
 70,39,"Q: Can you recommend a movie that is similar to the following American Beauty, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Forrest Gump?
 Options:
 (A) Neon Bull
 (B) The Silence of the Lambs
 (C) Cargo
 (D) Jeffrey
-A:",(B),0.8
+A:",(B),1.0
 70,61,"You are given a list of movies Forrest Gump, American Beauty, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope. Please suggest a movie that is similar to them from the following options: (A) Neon Bull
 (B) The Silence of the Lambs
 (C) Cargo
-(D) Jeffrey.",(B),0.8
+(D) Jeffrey.",(B),1.0
 70,65,"Given a list of movies Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Forrest Gump, American Beauty, please recommend a movie that is similar to them from the following options: (A) Neon Bull
 (B) Cargo
 (C) The Silence of the Lambs
-(D) Jeffrey.",(C),0.6
+(D) Jeffrey.",(C),1.0
 70,110,"Given a list of movies, recommend similar movies using a multi-choice format. You will be presented with a list of options and asked to select the most similar movie.
 List of movies: Forrest Gump, American Beauty, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope
 Options:
@@ -2198,7 +2198,7 @@ Options:
 (B) The Silence of the Lambs
 (C) Cargo
 (D) Neon Bull
-Output:",(B),0.4
+Output:",(B),1.0
 70,147,"Given a list of movies, recommend a movie that is most similar to the given list. Choose the correct answer from the list of movies provided.
 List of movies: Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, American Beauty, Forrest Gump
 Options:
@@ -2210,15 +2210,15 @@ Output:",(C),1.0
 71,72,"Please recommend a movie that is similar to The Usual Suspects, Pulp Fiction, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope. You can choose from the following options: (A) Wisdom
 (B) The Crew
 (C) Fargo
-(D) Conan the Barbarian.",(C),0.8
+(D) Conan the Barbarian.",(C),1.0
 71,97,"Your task is to find a movie that is similar to Star Wars Episode V - The Empire Strikes Back, Pulp Fiction, The Usual Suspects, Star Wars Episode IV - A New Hope. Please choose an option from the following list: (A) The Crew
 (B) Conan the Barbarian
 (C) Wisdom
-(D) Fargo.",(D),0.8
+(D) Fargo.",(D),1.0
 71,99,"Given a list of movies in The Usual Suspects, Star Wars Episode V - The Empire Strikes Back, Pulp Fiction, Star Wars Episode IV - A New Hope, please recommend a movie that is similar to them. You can select from the following options: (A) Fargo
 (B) Wisdom
 (C) Conan the Barbarian
-(D) The Crew.",(A),0.8
+(D) The Crew.",(A),1.0
 71,151,"Based on your movie preferences, we can recommend similar movies for you to watch. Choose the movie that you think is most similar to the given list of movies.
 Given list of movies: Star Wars Episode IV - A New Hope, Pulp Fiction, The Usual Suspects, Star Wars Episode V - The Empire Strikes Back
 Options:
@@ -2279,7 +2279,7 @@ Options:
 (B) Goodfellas
 (C) Little Man
 (D) You Can't Take It with You
-A:",(B),0.8
+A:",(B),1.0
 73,60,"Recommend a movie that is similar to Requiem for a Dream, Raiders of the Lost Ark, American History X, The Sixth Sense from the following options: (A) Little Man
 (B) Goodfellas
 (C) Miss Meadows
@@ -2296,7 +2296,7 @@ Options:
 (C) Goodfellas
 (D) Miss Meadows
 Output:
-Recommended movie:",(C),0.8
+Recommended movie:",(C),1.0
 74,23,"Q: Can you recommend a movie that is similar to the ones in The Shawshank Redemption, Forrest Gump, The Fugitive, Dances with Wolves?
 Options:
 (A) The Girl on the Bridge
@@ -2307,7 +2307,7 @@ A:",(C),1.0
 74,53,"Your task is to find a movie that is similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, The Fugitive. You will be given a list of options to choose from: (A) Pulp Fiction
 (B) Radioland Murders
 (C) The Girl on the Bridge
-(D) Father of the Bride.",(A),0.6
+(D) Father of the Bride.",(A),1.0
 74,112,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to choose an option from a list of movies provided as options.
 List of movies: The Fugitive, Dances with Wolves, Forrest Gump, The Shawshank Redemption
 Options:
@@ -2331,7 +2331,7 @@ Options:
 (B) Father of the Bride
 (C) Pulp Fiction
 (D) The Girl on the Bridge
-Output:",(C),0.8
+Output:",(C),1.0
 75,48,"Please suggest a movie that is similar to The Shawshank Redemption, Pulp Fiction, Dances with Wolves, The Fugitive. Here are some options you can choose from: (A) The Care Bears Movie
 (B) Forrest Gump
 (C) The Fiendish Plot of Dr Fu Manchu
@@ -2364,14 +2364,14 @@ Options:
 (B) Bad Taste
 (C) My Big Fat Greek Wedding 2
 (D) Dances with Wolves
-A:",(D),0.8
+A:",(D),1.0
 76,37,"Q: Can you recommend a movie that is similar to the following list of movies: Schindler's List, Braveheart, Pretty Woman, Apollo 13? Please choose from the following options:
 Options:
 (A) Bad Taste
 (B) The Santa Clause 2
 (C) My Big Fat Greek Wedding 2
 (D) Dances with Wolves
-A:",(D),0.8
+A:",(D),1.0
 76,106,"Recommend movies similar to a given list of movies. You will be presented with a list of movies and a multi-choice format with a default prompt and options. Your task is to select the option that is most similar to the given list of movies.
 Given list of movies: Pretty Woman, Schindler's List, Braveheart, Apollo 13
 Multi-choice options:
@@ -2402,7 +2402,7 @@ Options:
 (B) Saving Private Ryan
 (C) Ladybugs
 (D) Siam Sunset
-A:",(B),0.8
+A:",(B),1.0
 77,4,"Q: Can you suggest a movie similar to The Lord of the Rings The Two Towers, The Lord of the Rings The Fellowship of the Ring, Raiders of the Lost Ark, Inception?
 Choose from the following options:
 (A) Saving Private Ryan
@@ -2429,7 +2429,7 @@ Options:
 (B) American Ultra
 (C) Ladybugs
 (D) Siam Sunset
-Output:",(A),1.0
+Output:",(A),0.0
 78,32,"Q: Can you recommend a movie that is similar to the following The Lion King, Toy Story, The Fugitive, Aladdin:
 Options:
 (A) Short Circuit 2
@@ -2473,7 +2473,7 @@ Options:
 (B) Raiders of the Lost Ark
 (C) Nixon
 (D) The Pink Panther
-Output:",(B),0.6
+Output:",(B),1.0
 79,137,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the most appropriate option from the set of movies provided. 
 List of movies: Wayne's World, Star Wars Episode V - The Empire Strikes Back, The Terminator, Indiana Jones and the Temple of Doom
 Options:
@@ -2481,12 +2481,12 @@ Options:
 (B) The Pink Panther
 (C) Raiders of the Lost Ark
 (D) The Pawnbroker
-Output:",(C),0.8
+Output:",(C),1.0
 79,139,"Given a list of movies Star Wars Episode V - The Empire Strikes Back, Indiana Jones and the Temple of Doom, The Terminator, Wayne's World, recommend a movie similar to them by selecting one of the options provided in (A) The Pawnbroker
 (B) Nixon
 (C) Raiders of the Lost Ark
 (D) The Pink Panther.
-Output:",(C),0.8
+Output:",(C),1.0
 79,176,"Based on the list of movies you provided, which of the following options would you prefer to watch next?
 Movie list: Wayne's World, Indiana Jones and the Temple of Doom, Star Wars Episode V - The Empire Strikes Back, The Terminator
 Options:
@@ -2503,7 +2503,7 @@ Options:
 (B) Raiders of the Lost Ark
 (C) The Pawnbroker
 (D) Nixon
-Output:",(B),1.0
+Output:",(B),0.0
 80,89,"Given the list of movies American Beauty, Star Wars Episode IV - A New Hope, The Silence of the Lambs, Goodfellas, please recommend a movie that is similar to them. You can choose from the following options: (A) Bill & Ted's Bogus Journey
 (B) The Princess Bride
 (C) Christmas in Connecticut
@@ -2515,7 +2515,7 @@ Options:
 (B) Melvin and Howard
 (C) The Princess Bride
 (D) Christmas in Connecticut
-Output:",(C),0.8
+Output:",(C),1.0
 80,114,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a list of movies to choose from, and you must select the movie that is most similar to the given list.
 List of movies: Goodfellas, American Beauty, Star Wars Episode IV - A New Hope, The Silence of the Lambs
 Options:
@@ -2553,7 +2553,7 @@ Choose the best option from the list below:
 (B) Arlington Road
 (C) The Wizard of Oz
 (D) Captain Corelli's Mandolin
-A:",(C),0.8
+A:",(C),1.0
 81,121,"Given a list of movies, recommend similar movies using a multi-choice format. You will be presented with a list of movies and asked to select the option that is most similar to the given list.
 List of movies: Fantasia, Willy Wonka & the Chocolate Factory, The Jungle Book, The Sword in the Stone
 Options:
@@ -2581,21 +2581,21 @@ Options:
 (C) Arlington Road
 (D) Captain Corelli's Mandolin
 Output:
-Recommended movie:",(B),0.8
+Recommended movie:",(B),0.0
 82,22,"Q: Can you suggest a movie similar to The Shawshank Redemption, Dances with Wolves, Braveheart, The Usual Suspects? Choose from the following options:
 Options:
 (A) A Very Harold & Kumar 3D Christmas
 (B) Best Men
 (C) 3000 Miles to Graceland
 (D) Crimson Tide
-A:",(D),0.6
+A:",(D),1.0
 82,28,"Q: Can you recommend a movie similar to the following list: Braveheart, Dances with Wolves, The Usual Suspects, The Shawshank Redemption? Choose from the following options:
 Options:
 (A) Best Men
 (B) Crimson Tide
 (C) 3000 Miles to Graceland
 (D) A Very Harold & Kumar 3D Christmas
-A:",(B),0.8
+A:",(B),1.0
 82,54,"The task is to recommend a movie that is similar to The Shawshank Redemption, Dances with Wolves, The Usual Suspects, Braveheart. You will be presented with a list of options to choose from: (A) Best Men
 (B) Crimson Tide
 (C) 3000 Miles to Graceland
@@ -2603,11 +2603,11 @@ A:",(B),0.8
 82,93,"We need a recommendation for a movie that is similar to The Shawshank Redemption, Braveheart, The Usual Suspects, Dances with Wolves. Please choose from the following options: (A) A Very Harold & Kumar 3D Christmas
 (B) Best Men
 (C) Crimson Tide
-(D) 3000 Miles to Graceland.",(C),0.8
+(D) 3000 Miles to Graceland.",(C),1.0
 82,101,"Please recommend a movie that is similar to the list of movies in Dances with Wolves, The Usual Suspects, Braveheart, The Shawshank Redemption. The options are as follows: (A) 3000 Miles to Graceland
 (B) A Very Harold & Kumar 3D Christmas
 (C) Best Men
-(D) Crimson Tide.",(D),1.0
+(D) Crimson Tide.",(D),0.0
 83,10,"Q: Can you suggest a movie similar to Pulp Fiction, The Usual Suspects, The Shawshank Redemption, Interview with the Vampire The Vampire Chronicles?
 Pick from the following options:
 (A) Mommy
@@ -2618,7 +2618,7 @@ A:",(C),1.0
 83,54,"The task is to recommend a movie that is similar to The Shawshank Redemption, The Usual Suspects, Interview with the Vampire The Vampire Chronicles, Pulp Fiction. You will be presented with a list of options to choose from: (A) Caligula
 (B) The Fugitive
 (C) Anger Management
-(D) Mommy.",(B),0.8
+(D) Mommy.",(B),1.0
 83,55,"You need to find a movie that is similar to Interview with the Vampire The Vampire Chronicles, The Shawshank Redemption, Pulp Fiction, The Usual Suspects. You will be given a list of recommended movies to choose from, which are: (A) Anger Management
 (B) Mommy
 (C) Caligula
@@ -2631,13 +2631,13 @@ Choose an option from the following: (A) Mommy
 83,91,"Can you suggest a movie that is similar to The Usual Suspects, Pulp Fiction, Interview with the Vampire The Vampire Chronicles, The Shawshank Redemption? You can choose from the following options: (A) Anger Management
 (B) Caligula
 (C) The Fugitive
-(D) Mommy.",(C),0.8
+(D) Mommy.",(C),0.0
 84,44,"Q: Can you recommend a movie similar to the following Dances with Wolves, Pulp Fiction, Stargate, The Shawshank Redemption?
 Choose from the following options:
 (A) The Boss of It All
 (B) Barb Wire
 (C) The Fugitive
-(D) Basic Instinct 2",(C),1.0
+(D) Basic Instinct 2",(C),0.0
 84,125,"Recommend a movie similar to the given list of movies. Choose from the list of movie options provided.
 Movie list: Pulp Fiction, Dances with Wolves, Stargate, The Shawshank Redemption
 Options:
@@ -2661,7 +2661,7 @@ Options:
 (B) Basic Instinct 2
 (C) Barb Wire
 (D) The Boss of It All
-Output:",(A),1.0
+Output:",(A),0.0
 84,171,"Given a list of movies, recommend a similar movie from a set of options.
 Movie list: Pulp Fiction, Dances with Wolves, Stargate, The Shawshank Redemption
 Options:
@@ -2674,19 +2674,19 @@ Recommended movie:",(C),1.0
 85,49,"I need a recommendation for a movie that is similar to Get Shorty, Don Juan DeMarco, The Shawshank Redemption, Mr Holland's Opus. You can choose from the following options: (A) Boccaccio '70
 (B) What's Eating Gilbert Grape
 (C) Long Night's Journey Into Day
-(D) Howards End.",(B),0.6
+(D) Howards End.",(B),1.0
 85,63,"Please find a movie that is similar to Don Juan DeMarco, Get Shorty, The Shawshank Redemption, Mr Holland's Opus from the following options: (A) Boccaccio '70
 (B) Howards End
 (C) What's Eating Gilbert Grape
-(D) Long Night's Journey Into Day.",(C),0.8
+(D) Long Night's Journey Into Day.",(C),1.0
 85,74,"Your task is to find a movie similar to The Shawshank Redemption, Get Shorty, Mr Holland's Opus, Don Juan DeMarco. You have the following options to choose from: (A) Long Night's Journey Into Day
 (B) Boccaccio '70
 (C) What's Eating Gilbert Grape
-(D) Howards End.",(C),0.8
+(D) Howards End.",(C),1.0
 85,86,"The objective of this task is to recommend a movie that is similar to the list of movies provided in Don Juan DeMarco, Mr Holland's Opus, The Shawshank Redemption, Get Shorty. You will be presented with a set of (A) Howards End
 (B) What's Eating Gilbert Grape
 (C) Boccaccio '70
-(D) Long Night's Journey Into Day to choose from.",(B),0.8
+(D) Long Night's Journey Into Day to choose from.",(B),1.0
 85,160,"Based on a list of movies, recommend a similar movie from the following options. Choose the movie that is most similar to the given list.
 List of movies: Don Juan DeMarco, Mr Holland's Opus, Get Shorty, The Shawshank Redemption
 Options:
@@ -2694,15 +2694,15 @@ Options:
 (B) Boccaccio '70
 (C) Long Night's Journey Into Day
 (D) What's Eating Gilbert Grape
-Output:",(D),1.0
+Output:",(D),0.0
 86,77,"Please recommend movies that are similar to the following list of movies: The Silence of the Lambs, Forrest Gump, Pulp Fiction, Laputa Castle in the Sky. You can choose from the following options: (A) The Shawshank Redemption
 (B) Bone Tomahawk
 (C) The Brice Man
-(D) The Village.",(A),0.8
+(D) The Village.",(A),1.0
 86,83,"The task is to find a movie that is similar to the list of movies provided in Forrest Gump, Pulp Fiction, The Silence of the Lambs, Laputa Castle in the Sky. You will be given a set of (A) The Brice Man
 (B) Bone Tomahawk
 (C) The Shawshank Redemption
-(D) The Village to choose from.",(C),0.6
+(D) The Village to choose from.",(C),1.0
 86,107,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a list of options to choose from. Select the movie that you think is the best match to the given list of movies.
 List of movies: The Silence of the Lambs, Laputa Castle in the Sky, Pulp Fiction, Forrest Gump
 Options:
@@ -2739,7 +2739,7 @@ A:",(B),0.0
 87,73,"Given a list of movies Jurassic Park, Independence Day, Batman, The Silence of the Lambs, please suggest a movie that is similar to them. You can choose from the following options: (A) American Flyers
 (B) Thunderbirds
 (C) Forrest Gump
-(D) Shadows and Fog.",(C),0.8
+(D) Shadows and Fog.",(C),1.0
 87,79,"Can you suggest movies that are similar to the ones in The Silence of the Lambs, Jurassic Park, Independence Day, Batman? Here are your options: (A) Shadows and Fog
 (B) Thunderbirds
 (C) Forrest Gump
@@ -2773,7 +2773,7 @@ Options:
 (B) Schindler's List
 (C) Davy Crockett
 (D) King of the Wild Frontier
-Output:",(B),0.8
+Output:",(B),1.0
 88,129,"Given a 'movie_list' and a set of 'options', recommend movies similar to the 'movie_list' in a multi-choice format.
 movie_list: The Shawshank Redemption, Get Shorty, The Usual Suspects, Pulp Fiction
 Options:
@@ -2815,11 +2815,11 @@ A:",(B),1.0
 89,55,"You need to find a movie that is similar to Raiders of the Lost Ark, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Mission Impossible. You will be given a list of recommended movies to choose from, which are: (A) Stander
 (B) Too Late for Tears
 (C) Indiana Jones and the Last Crusade
-(D) Tower Heist.",(C),0.8
+(D) Tower Heist.",(C),1.0
 89,78,"I need your help to find movies that are similar to Raiders of the Lost Ark, Mission Impossible, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope. Please choose from the following options: (A) Indiana Jones and the Last Crusade
 (B) Too Late for Tears
 (C) Stander
-(D) Tower Heist.",(A),0.8
+(D) Tower Heist.",(A),1.0
 89,142,"Based on your movie preferences, we can recommend similar movies for you. Please select the option that you think is most similar to your list of movies.
 List of movies: Star Wars Episode IV - A New Hope, Raiders of the Lost Ark, Mission Impossible, Star Wars Episode V - The Empire Strikes Back
 Options:
@@ -2827,7 +2827,7 @@ Options:
 (B) Stander
 (C) Indiana Jones and the Last Crusade
 (D) Too Late for Tears
-Output:",(C),0.8
+Output:",(C),1.0
 90,13,"Q: Can you suggest a movie that is similar to any of these Forrest Gump, Fargo, The Fugitive, Independence Day?
 Options:
 (A) Comic-Con Episode IV A Fan's Hope
@@ -2853,7 +2853,7 @@ Options:
 (B) Heat
 (C) Harley Davidson and the Marlboro Man
 (D) Scratch
-Output:",(B),1.0
+Output:",(B),0.0
 90,148,"Given a list of movies, recommend the movie that is most similar to them. Choose the option that you think is the best match from the provided list of movies.
 List of movies: Fargo, Independence Day, The Fugitive, Forrest Gump
 Options:
@@ -2868,7 +2868,7 @@ Options:
 (B) Hood of Horror
 (C) World's Greatest Dad
 (D) Dead Man Walking
-A:",(D),0.8
+A:",(D),1.0
 91,55,"You need to find a movie that is similar to The Shawshank Redemption, Braveheart, Terminator 2 Judgment Day, The Fugitive. You will be given a list of recommended movies to choose from, which are: (A) World's Greatest Dad
 (B) Hood of Horror
 (C) Dead Man Walking
@@ -2914,7 +2914,7 @@ A:",(B),1.0
 92,94,"Can you recommend a movie that is similar to Star Wars Episode IV - A New Hope, American Beauty, Star Wars Episode V - The Empire Strikes Back, The Sixth Sense? Here are your options: (A) New York
 (B) Death to Smoochy
 (C) The Artist
-(D) LA Confidential.",(D),0.8
+(D) LA Confidential.",(D),1.0
 92,126,"Please recommend movies similar to the given list of movies. You will be provided with a list of movies and you should suggest options for the user to choose from.
 Movie list: Star Wars Episode IV - A New Hope, The Sixth Sense, Star Wars Episode V - The Empire Strikes Back, American Beauty
 Options:
@@ -2922,7 +2922,7 @@ Options:
 (B) The Artist
 (C) LA Confidential
 (D) New York
-Output:",(C),0.8
+Output:",(C),1.0
 94,30,"Q: Can you recommend a movie similar to the following list: The Shawshank Redemption, Apollo 13, Terminator 2 Judgment Day, Dead Man Walking? Please choose from the following options:
 Options:
 (A) Clear and Present Danger
@@ -2981,7 +2981,7 @@ Options:
 (B) Ghost Ship
 (C) Forrest Gump
 (D) Revenge for Jolly!
-Output:",(C),0.0
+Output:",(C),0.2
 95,154,"Given a list of movies, recommend a similar movie from the following options. Select the option that you think is most similar to the given list of movies.
 List of movies: Batman, American Beauty, The Silence of the Lambs, Jurassic Park
 Options:
@@ -2998,7 +2998,7 @@ Options:
 (B) Ghost Ship
 (C) Night of the Living Dead
 (D) Forrest Gump
-Output:",(D),0.8
+Output:",(D),1.0
 96,20,"Q: Can you suggest a movie that is similar to the following list of movies: The Silence of the Lambs, Jurassic Park, The Usual Suspects, Batman?
 Choose one from the following options:
 (A) Forrest Gump
@@ -3013,7 +3013,7 @@ A:",(A),1.0
 96,84,"Your goal is to recommend a movie that is similar to the list of movies provided in The Silence of the Lambs, The Usual Suspects, Jurassic Park, Batman. You will have to choose from a set of (A) Caution
 (B) The End of the Tour
 (C) Forrest Gump
-(D) Lust.",(C),0.8
+(D) Lust.",(C),1.0
 96,119,"Recommend movies similar to a given list of movies. You will be presented with a list of options and asked to select the movie that is most similar to the given list.
 List of movies: Jurassic Park, Batman, The Usual Suspects, The Silence of the Lambs
 Options:
@@ -3021,7 +3021,7 @@ Options:
 (B) Lust
 (C) Forrest Gump
 (D) Caution
-Output:",(C),0.6
+Output:",(C),1.0
 96,156,"Given a list of movies, recommend a similar movie from a list of options. Choose the movie that you think is most similar to the given list.
 List of movies: The Silence of the Lambs, The Usual Suspects, Jurassic Park, Batman
 Options:
@@ -3040,7 +3040,7 @@ A:",(B),1.0
 97,63,"Please find a movie that is similar to Pulp Fiction, Dances with Wolves, The Usual Suspects, Forrest Gump from the following options: (A) Get Shorty
 (B) Jaws The Revenge
 (C) The Lawnmower Man
-(D) Virus.",(A),0.8
+(D) Virus.",(A),1.0
 97,102,"Your task is to find a movie that is similar to Forrest Gump, Pulp Fiction, The Usual Suspects, Dances with Wolves. You will be given the following options to choose from: (A) Jaws The Revenge
 (B) Virus
 (C) Get Shorty
@@ -3052,7 +3052,7 @@ Options:
 (B) Get Shorty
 (C) Jaws The Revenge
 (D) The Lawnmower Man
-Output:",(B),1.0
+Output:",(B),0.0
 97,132,"Recommend a movie similar to the given list of movies from a set of options.
 movie_list: The Usual Suspects, Pulp Fiction, Dances with Wolves, Forrest Gump
 Options:
@@ -3071,7 +3071,7 @@ A:",(B),1.0
 98,79,"Can you suggest movies that are similar to the ones in Dances with Wolves, Stargate, Pulp Fiction, The Shawshank Redemption? Here are your options: (A) The Towering Inferno
 (B) The Fugitive
 (C) The Collector
-(D) Diabolique.",(B),0.4
+(D) Diabolique.",(B),1.0
 98,100,"I need a recommendation for a movie that is similar to the movies in The Shawshank Redemption, Dances with Wolves, Pulp Fiction, Stargate. Please choose an option from the following: (A) Diabolique
 (B) The Fugitive
 (C) The Towering Inferno
@@ -3091,7 +3091,7 @@ Options:
 (B) The Collector
 (C) The Fugitive
 (D) The Towering Inferno
-Output:",(C),0.8
+Output:",(C),1.0
 99,33,"Q: Can you suggest a movie that is similar to the following movies: Batman, Interview with the Vampire The Vampire Chronicles, Pretty Woman, The Mask?
 Options:
 (A) Unicorn City
@@ -3133,7 +3133,7 @@ Options:
 (B) Super Mario Bros
 (C) Aladdin
 (D) The Stunt Man
-A:",(C),0.8
+A:",(C),1.0
 100,33,"Q: Can you suggest a movie that is similar to the following movies: Terminator 2 Judgment Day, Toy Story, The Fugitive, The Lion King?
 Options:
 (A) Black Mirror
@@ -3144,7 +3144,7 @@ A:",(B),1.0
 100,97,"Your task is to find a movie that is similar to Toy Story, The Lion King, Terminator 2 Judgment Day, The Fugitive. Please choose an option from the following list: (A) Black Mirror
 (B) The Stunt Man
 (C) Super Mario Bros
-(D) Aladdin.",(D),0.8
+(D) Aladdin.",(D),1.0
 100,112,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to choose an option from a list of movies provided as options.
 List of movies: Toy Story, The Lion King, Terminator 2 Judgment Day, The Fugitive
 Options:
@@ -3160,18 +3160,18 @@ Options:
 (B) The Stunt Man
 (C) Black Mirror
 (D) Super Mario Bros
-Output:",(A),0.8
+Output:",(A),1.0
 101,30,"Q: Can you recommend a movie similar to the following list: Forrest Gump, Raiders of the Lost Ark, The Matrix, Pulp Fiction? Please choose from the following options:
 Options:
 (A) Trail of the Pink Panther
 (B) Firestarter
 (C) Inception
 (D) Joe's Apartment
-A:",(C),0.8
+A:",(C),0.0
 101,57,"Please recommend a movie that is similar to Forrest Gump, Raiders of the Lost Ark, Pulp Fiction, The Matrix from the following options: (A) Trail of the Pink Panther
 (B) Joe's Apartment
 (C) Inception
-(D) Firestarter.",(C),0.8
+(D) Firestarter.",(C),1.0
 101,87,"You are tasked with finding a movie that is similar to the list of movies provided in Raiders of the Lost Ark, Forrest Gump, The Matrix, Pulp Fiction. You will have to choose from a set of (A) Trail of the Pink Panther
 (B) Joe's Apartment
 (C) Inception
@@ -3231,12 +3231,12 @@ Recommended movie:",(B),0.0
 103,61,"You are given a list of movies The Dark Knight, The Lord of the Rings The Two Towers, Schindler's List, Inception. Please suggest a movie that is similar to them from the following options: (A) Star Wars Episode IV - A New Hope
 (B) Couples Retreat
 (C) Those Magnificent Men in Their Flying Machines
-(D) Friday After Next.",(A),0.8
+(D) Friday After Next.",(A),1.0
 103,69,"Based on the list of movies The Dark Knight, Inception, The Lord of the Rings The Two Towers, Schindler's List, suggest a movie that is similar.
 Choose from the following options: (A) Star Wars Episode IV - A New Hope
 (B) Couples Retreat
 (C) Those Magnificent Men in Their Flying Machines
-(D) Friday After Next",(A),0.6
+(D) Friday After Next",(A),1.0
 103,96,"Could you suggest a movie that is similar to The Lord of the Rings The Two Towers, The Dark Knight, Schindler's List, Inception? You can choose from the following options: (A) Couples Retreat
 (B) Star Wars Episode IV - A New Hope
 (C) Friday After Next
@@ -3248,7 +3248,7 @@ Options:
 (B) Those Magnificent Men in Their Flying Machines
 (C) Friday After Next
 (D) Couples Retreat
-Output:",(A),0.8
+Output:",(A),1.0
 103,171,"Given a list of movies, recommend a similar movie from a set of options.
 Movie list: Schindler's List, The Dark Knight, Inception, The Lord of the Rings The Two Towers
 Options:
@@ -3257,7 +3257,7 @@ Options:
 (C) Friday After Next
 (D) Those Magnificent Men in Their Flying Machines
 Output:
-Recommended movie:",(B),0.8
+Recommended movie:",(B),1.0
 104,41,"Q: Can you recommend a movie similar to X-Men, Independence Day, Planet of the Apes, Forrest Gump? Choose one from the following options:
 Options:
 (A) Fast & Furious
@@ -3350,7 +3350,7 @@ A:",(B),1.0
 (C) Saving Santa
 (D) Babe.
 Output:
-Recommended movie:",(D),0.8
+Recommended movie:",(D),1.0
 106,143,"Based on a list of movies, recommend a movie that is most similar to the given list. Choose the best option from the list of choices provided.
 List of movies: The Mask, The Fugitive, Interview with the Vampire The Vampire Chronicles, The Lion King
 Options:
@@ -3358,7 +3358,7 @@ Options:
 (B) The House
 (C) Babe
 (D) Experimenter
-Output:",(C),0.6
+Output:",(C),1.0
 106,153,"Given a list of movies, recommend a movie that is most similar to the given list. Select the option that you think is the best match.
 List of movies: The Mask, The Fugitive, Interview with the Vampire The Vampire Chronicles, The Lion King
 Options:
@@ -3366,7 +3366,7 @@ Options:
 (B) Saving Santa
 (C) Babe
 (D) Experimenter
-Output:",(C),0.8
+Output:",(C),1.0
 107,32,"Q: Can you recommend a movie that is similar to the following The Shawshank Redemption, Pulp Fiction, The Fugitive, Forrest Gump:
 Options:
 (A) Oceans
@@ -3385,7 +3385,7 @@ Options:
 (B) Oceans
 (C) I Know Who Killed Me
 (D) It Can't Be!
-Output:",(A),0.8
+Output:",(A),1.0
 107,122,"Please recommend movies similar to the given list of movies. Choose the best option from the list of movies provided. 
 Movie list: Pulp Fiction, The Shawshank Redemption, The Fugitive, Forrest Gump
 Options:
@@ -3409,7 +3409,7 @@ Options:
 (B) Crimes and Misdemeanors
 (C) Gorillas in the Mist
 (D) King Kong
-A:",(A),0.8
+A:",(A),1.0
 108,29,"Q: Can you recommend a movie similar to the following list: Braveheart, Dances with Wolves, Apollo 13, Batman? Here are some options to choose from:
 (A) Crimes and Misdemeanors
 (B) Gorillas in the Mist
@@ -3446,14 +3446,14 @@ Here are some options:
 (B) Sin Nombre
 (C) Pushing Hands
 (D) Mortal Kombat The Journey Begins
-A:",(A),0.8
+A:",(A),1.0
 109,25,"Q: Can you suggest a movie similar to Kill Bill Vol 2, Requiem for a Dream, Léon The Professional, Pulp Fiction?
 Please choose from the following options:
 (A) Mortal Kombat The Journey Begins
 (B) Pushing Hands
 (C) Sin Nombre
 (D) The Godfather
-A:",(D),0.8
+A:",(D),1.0
 109,62,"The goal is to find a movie that is similar to Kill Bill Vol 2, Pulp Fiction, Requiem for a Dream, Léon The Professional. You can choose from the following options: (A) Mortal Kombat The Journey Begins
 (B) Pushing Hands
 (C) The Godfather
@@ -3469,21 +3469,21 @@ Options:
 (B) The Godfather
 (C) Sin Nombre
 (D) Mortal Kombat The Journey Begins
-Output:",(B),0.6
+Output:",(B),0.0
 110,0,"Q: Find a movie similar to Braveheart, The Fugitive, Fargo, Schindler's List:
 Options:
 (A) The Good Son
 (B) Arachnophobia
 (C) Liam
 (D) Dances with Wolves
-A:",(D),0.8
+A:",(D),1.0
 110,3,"Q: Can you suggest a movie similar to the ones in Schindler's List, Braveheart, Fargo, The Fugitive?
 Here are some options:
 (A) Dances with Wolves
 (B) The Good Son
 (C) Liam
 (D) Arachnophobia
-A:",(A),0.6
+A:",(A),1.0
 110,77,"Please recommend movies that are similar to the following list of movies: Schindler's List, Fargo, Braveheart, The Fugitive. You can choose from the following options: (A) Arachnophobia
 (B) Dances with Wolves
 (C) The Good Son
@@ -3500,7 +3500,7 @@ Options:
 (C) Dances with Wolves
 (D) Arachnophobia
 Output:
-Recommended movie:",(C),1.0
+Recommended movie:",(C),0.0
 111,0,"Q: Find a movie similar to Get Shorty, Mr Holland's Opus, Dances with Wolves, Stargate:
 Options:
 (A) The Usual Suspects
@@ -3540,7 +3540,7 @@ Options:
 (B) Seven
 (C) Cannibal Holocaust
 (D) Night at the Museum Secret of the Tomb
-A:",(B),0.8
+A:",(B),1.0
 112,43,"Q: Can you recommend a movie that is similar to The Fugitive, Forrest Gump, The Silence of the Lambs, Braveheart?
 Please choose from the following options:
 (A) Night at the Museum Secret of the Tomb
@@ -3573,7 +3573,7 @@ Options:
 (B) Night at the Museum Secret of the Tomb
 (C) Bride & Prejudice
 (D) Seven
-Output:",(D),0.8
+Output:",(D),1.0
 113,3,"Q: Can you suggest a movie similar to the ones in Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, American Beauty, Back to the Future?
 Here are some options:
 (A) Jon Stewart Has Left the Building
@@ -3591,7 +3591,7 @@ A:",(B),1.0
 113,57,"Please recommend a movie that is similar to Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Back to the Future, American Beauty from the following options: (A) The Terminator
 (B) Jon Stewart Has Left the Building
 (C) Hud
-(D) The Mummy Tomb of the Dragon Emperor.",(A),0.6
+(D) The Mummy Tomb of the Dragon Emperor.",(A),1.0
 113,113,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you must select the movie that is most similar to the given list.
 List of movies: Star Wars Episode V - The Empire Strikes Back, Back to the Future, American Beauty, Star Wars Episode IV - A New Hope
 Options:
@@ -3599,7 +3599,7 @@ Options:
 (B) Jon Stewart Has Left the Building
 (C) The Mummy Tomb of the Dragon Emperor
 (D) Hud
-Output:",(A),1.0
+Output:",(A),0.0
 113,141,"Looking for movie recommendations? We've got you covered! Simply provide us with a list of movies you love, and we'll suggest similar movies for you to enjoy. Choose the option that best matches your preferences and get ready for a great movie night!
 List of movies: Back to the Future, American Beauty, Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back
 Options:
@@ -3607,7 +3607,7 @@ Options:
 (B) Hud
 (C) The Terminator
 (D) Jon Stewart Has Left the Building
-Output:",(C),0.8
+Output:",(C),0.0
 114,55,"You need to find a movie that is similar to Léon The Professional, One Flew Over the Cuckoo's Nest, Reservoir Dogs, Star Wars Episode V - The Empire Strikes Back. You will be given a list of recommended movies to choose from, which are: (A) Hereafter
 (B) Thumbelina
 (C) Raiders of the Lost Ark
@@ -3615,7 +3615,7 @@ Output:",(C),0.8
 114,65,"Given a list of movies Reservoir Dogs, Léon The Professional, Star Wars Episode V - The Empire Strikes Back, One Flew Over the Cuckoo's Nest, please recommend a movie that is similar to them from the following options: (A) Thumbelina
 (B) The Thinning
 (C) Raiders of the Lost Ark
-(D) Hereafter.",(C),0.6
+(D) Hereafter.",(C),1.0
 114,119,"Recommend movies similar to a given list of movies. You will be presented with a list of options and asked to select the movie that is most similar to the given list.
 List of movies: Reservoir Dogs, One Flew Over the Cuckoo's Nest, Léon The Professional, Star Wars Episode V - The Empire Strikes Back
 Options:
@@ -3623,7 +3623,7 @@ Options:
 (B) Raiders of the Lost Ark
 (C) Thumbelina
 (D) The Thinning
-Output:",(B),0.6
+Output:",(B),1.0
 114,148,"Given a list of movies, recommend the movie that is most similar to them. Choose the option that you think is the best match from the provided list of movies.
 List of movies: Léon The Professional, One Flew Over the Cuckoo's Nest, Star Wars Episode V - The Empire Strikes Back, Reservoir Dogs
 Options:
@@ -3650,11 +3650,11 @@ A:",(B),0.0
 115,97,"Your task is to find a movie that is similar to Pulp Fiction, Don Juan DeMarco, What's Eating Gilbert Grape, Mr Holland's Opus. Please choose an option from the following list: (A) Death Wish 2
 (B) Kolya
 (C) Get Shorty
-(D) Gold Diggers of 1933.",(C),0.8
+(D) Gold Diggers of 1933.",(C),1.0
 115,101,"Please recommend a movie that is similar to the list of movies in Pulp Fiction, What's Eating Gilbert Grape, Don Juan DeMarco, Mr Holland's Opus. The options are as follows: (A) Gold Diggers of 1933
 (B) Get Shorty
 (C) Kolya
-(D) Death Wish 2.",(B),0.8
+(D) Death Wish 2.",(B),1.0
 115,102,"Your task is to find a movie that is similar to Mr Holland's Opus, Don Juan DeMarco, What's Eating Gilbert Grape, Pulp Fiction. You will be given the following options to choose from: (A) Kolya
 (B) Get Shorty
 (C) Gold Diggers of 1933
@@ -3666,7 +3666,7 @@ Options:
 (B) Get Shorty
 (C) Death Wish 2
 (D) Kolya
-Output:",(B),0.6
+Output:",(B),1.0
 116,24,"Q: Can you suggest a movie similar to the list of What's Eating Gilbert Grape, The Shawshank Redemption, Get Shorty, The Fugitive?
 Choose from the following options:
 (A) Unstrung Heroes
@@ -3689,7 +3689,7 @@ Options:
 (B) Vampire in Brooklyn
 (C) Unstrung Heroes
 (D) Braveheart
-Output:",(D),0.8
+Output:",(D),1.0
 116,165,"Based on the movies you provided, we have some recommendations for you! Which of the following options do you think you would enjoy watching next?
 Movie list: Get Shorty, The Fugitive, The Shawshank Redemption, What's Eating Gilbert Grape
 Options:
@@ -3816,7 +3816,7 @@ A:",(C),1.0
 120,86,"The objective of this task is to recommend a movie that is similar to the list of movies provided in The Princess Bride, Groundhog Day, Fargo, The Fugitive. You will be presented with a set of (A) Raiders of the Lost Ark
 (B) No Man's Land
 (C) John Q
-(D) The Morning After to choose from.",(A),0.8
+(D) The Morning After to choose from.",(A),0.0
 120,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: Groundhog Day, The Fugitive, Fargo, The Princess Bride
 Options:
@@ -3831,7 +3831,7 @@ Options:
 (B) Gray's Anatomy
 (C) Indecent Proposal
 (D) Star Wars Episode V - The Empire Strikes Back
-A:",(D),0.8
+A:",(D),0.0
 121,39,"Q: Can you recommend a movie that is similar to the following The Sixth Sense, Toy Story, Star Wars Episode VI - Return of the Jedi, The Terminator?
 Options:
 (A) Star Wars Episode V - The Empire Strikes Back
@@ -3843,12 +3843,12 @@ A:",(A),1.0
 Choose an option from the following: (A) Star Wars Episode V - The Empire Strikes Back
 (B) The Girl Next Door
 (C) Indecent Proposal
-(D) Gray's Anatomy",(A),0.6
+(D) Gray's Anatomy",(A),1.0
 121,71,"Find a movie that shares similarities with the movies in The Sixth Sense, Toy Story, The Terminator, Star Wars Episode VI - Return of the Jedi.
 Choose an option from the list below: (A) Indecent Proposal
 (B) The Girl Next Door
 (C) Star Wars Episode V - The Empire Strikes Back
-(D) Gray's Anatomy",(C),0.8
+(D) Gray's Anatomy",(C),1.0
 121,151,"Based on your movie preferences, we can recommend similar movies for you to watch. Choose the movie that you think is most similar to the given list of movies.
 Given list of movies: The Sixth Sense, Toy Story, The Terminator, Star Wars Episode VI - Return of the Jedi
 Options:
@@ -3856,7 +3856,7 @@ Options:
 (B) The Girl Next Door
 (C) Gray's Anatomy
 (D) Star Wars Episode V - The Empire Strikes Back
-Output:",(D),0.8
+Output:",(D),1.0
 122,7,"Q: Can you suggest a movie that is similar to the movies in Dances with Wolves, The Shawshank Redemption, Stargate, Tombstone?
 Options:
 (A) Frankenstein Unbound
@@ -3868,7 +3868,7 @@ A:",(D),1.0
 Choose an option from the following: (A) One Crazy Summer
 (B) The Fugitive
 (C) Easter Parade
-(D) Frankenstein Unbound",(B),0.8
+(D) Frankenstein Unbound",(B),0.0
 122,118,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to select the movie that is most similar to the given list of movies.
 List of movies: The Shawshank Redemption, Dances with Wolves, Stargate, Tombstone
 Options:
@@ -3876,7 +3876,7 @@ Options:
 (B) The Fugitive
 (C) Frankenstein Unbound
 (D) Easter Parade
-Output:",(B),0.6
+Output:",(B),1.0
 122,129,"Given a 'movie_list' and a set of 'options', recommend movies similar to the 'movie_list' in a multi-choice format.
 movie_list: Stargate, The Shawshank Redemption, Tombstone, Dances with Wolves
 Options:
@@ -3884,7 +3884,7 @@ Options:
 (B) The Fugitive
 (C) Easter Parade
 (D) One Crazy Summer
-Output:",(B),0.8
+Output:",(B),1.0
 122,159,"Based on your movie preferences, we can recommend similar movies for you to watch. Please select the movie from the list below that is most similar to the movies you have enjoyed watching.
 Given list of movies: Tombstone, Stargate, Dances with Wolves, The Shawshank Redemption
 Options:
@@ -3892,7 +3892,7 @@ Options:
 (B) One Crazy Summer
 (C) Frankenstein Unbound
 (D) Easter Parade
-Output:",(A),0.8
+Output:",(A),1.0
 123,29,"Q: Can you recommend a movie similar to the following list: Batman, Terminator 2 Judgment Day, Aladdin, The Lion King? Here are some options to choose from:
 (A) The Proposition
 (B) Killing Me Softly
@@ -3909,7 +3909,7 @@ A:",(A),0.2
 123,55,"You need to find a movie that is similar to Terminator 2 Judgment Day, Batman, Aladdin, The Lion King. You will be given a list of recommended movies to choose from, which are: (A) Killing Me Softly
 (B) A King in New York
 (C) Pretty Woman
-(D) The Proposition.",(C),0.8
+(D) The Proposition.",(C),1.0
 123,81,"Your task is to recommend a movie similar to the list of movies provided in Batman, The Lion King, Aladdin, Terminator 2 Judgment Day. You will be given a set of (A) The Proposition
 (B) Killing Me Softly
 (C) Pretty Woman
@@ -3940,7 +3940,7 @@ Options:
 (B) Boyz N the Hood
 (C) Let It Ride
 (D) LA Confidential
-Output:",(D),0.8
+Output:",(D),1.0
 124,139,"Given a list of movies The Lord of the Rings The Return of the King, Star Wars Episode IV - A New Hope, The Usual Suspects, Star Wars Episode V - The Empire Strikes Back, recommend a movie similar to them by selecting one of the options provided in (A) PS I Love You
 (B) LA Confidential
 (C) Let It Ride
@@ -3953,14 +3953,14 @@ Options:
 (B) LA Confidential
 (C) Let It Ride
 (D) Boyz N the Hood
-Output:",(B),0.8
+Output:",(B),1.0
 125,18,"Q: Can you recommend a movie similar to the ones in Dances with Wolves, The Shawshank Redemption, Stargate, The Fugitive?
 Choose from the following options:
 (A) Beauty of the Day
 (B) Pulp Fiction
 (C) An
 (D) Angel at My Table
-A:",(B),0.8
+A:",(B),1.0
 125,48,"Please suggest a movie that is similar to Dances with Wolves, The Shawshank Redemption, The Fugitive, Stargate. Here are some options you can choose from: (A) An
 (B) Beauty of the Day
 (C) Pulp Fiction
@@ -3988,7 +3988,7 @@ Here are some options:
 (B) The Brothers Grimm
 (C) Pulp Fiction
 (D) Hudson Hawk
-A:",(C),1.0
+A:",(C),0.0
 126,34,"Q: Please suggest a movie that is similar to any of the following movies: The Matrix, Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back, Forrest Gump.
 Options:
 (A) Pulp Fiction
@@ -3999,11 +3999,11 @@ A:",(A),0.4
 126,81,"Your task is to recommend a movie similar to the list of movies provided in The Matrix, Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back, Forrest Gump. You will be given a set of (A) Pulp Fiction
 (B) Da geht noch was!
 (C) The Brothers Grimm
-(D) Hudson Hawk to choose from.",(A),0.8
+(D) Hudson Hawk to choose from.",(A),1.0
 126,93,"We need a recommendation for a movie that is similar to Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Forrest Gump, The Matrix. Please choose from the following options: (A) Da geht noch was!
 (B) Pulp Fiction
 (C) The Brothers Grimm
-(D) Hudson Hawk.",(B),0.8
+(D) Hudson Hawk.",(B),1.0
 126,157,"Recommend a movie similar to a given list of movies. Choose the option that is most similar to the given list of movies.
 Given list of movies: Star Wars Episode V - The Empire Strikes Back, The Matrix, Forrest Gump, Star Wars Episode IV - A New Hope
 Options:
@@ -4035,7 +4035,7 @@ Movie options:
 (B) American Pie Presents The Book of Love
 (C) Nina's Heavenly Delights
 (D) The Lion King
-Output:",(D),0.8
+Output:",(D),1.0
 127,152,"Given a list of movies, recommend a movie that is most similar to the given list. Choose the correct option from a list of movies provided as choices.
 List of movies: The Shawshank Redemption, Aladdin, Schindler's List, Terminator 2 Judgment Day
 Options:
@@ -4043,11 +4043,11 @@ Options:
 (B) Nina's Heavenly Delights
 (C) The Lion King
 (D) American Pie Presents The Book of Love
-Output:",(C),0.8
+Output:",(C),1.0
 128,54,"The task is to recommend a movie that is similar to Raiders of the Lost Ark, The Silence of the Lambs, The Big Lebowski, Goodfellas. You will be presented with a list of options to choose from: (A) Doctor Dolittle
 (B) Pi
 (C) House Party 3
-(D) Star Wars Episode IV - A New Hope.",(D),0.6
+(D) Star Wars Episode IV - A New Hope.",(D),1.0
 128,60,"Recommend a movie that is similar to Raiders of the Lost Ark, The Silence of the Lambs, Goodfellas, The Big Lebowski from the following options: (A) House Party 3
 (B) Pi
 (C) Star Wars Episode IV - A New Hope
@@ -4075,7 +4075,7 @@ Options:
 (B) Doctor Dolittle
 (C) Star Wars Episode IV - A New Hope
 (D) House Party 3
-Output:",(C),0.8
+Output:",(C),1.0
 129,22,"Q: Can you suggest a movie similar to The Green Mile, Gladiator, The Matrix, Saving Private Ryan? Choose from the following options:
 Options:
 (A) Alex and Emma
@@ -4089,7 +4089,7 @@ Options:
 (B) Alex and Emma
 (C) Gattaca
 (D) The Terrorist
-A:",(C),0.8
+A:",(C),0.0
 129,132,"Recommend a movie similar to the given list of movies from a set of options.
 movie_list: Saving Private Ryan, Gladiator, The Green Mile, The Matrix
 Options:
@@ -4114,7 +4114,7 @@ Options:
 (B) 49 Up
 (C) Gattaca
 (D) Alex and Emma
-Output:",(C),0.8
+Output:",(C),0.0
 130,7,"Q: Can you suggest a movie that is similar to the movies in The Matrix, Gattaca, Gladiator, The Fifth Element?
 Options:
 (A) Imagine That
@@ -4135,7 +4135,7 @@ Options:
 (B) Le Samouraï
 (C) Raiders of the Lost Ark
 (D) Imagine That
-A:",(C),1.0
+A:",(C),0.0
 130,58,"Given a list of movies The Matrix, Gladiator, The Fifth Element, Gattaca, please suggest a movie that is similar to them from the following options: (A) Le Samouraï
 (B) Imagine That
 (C) Birdman of Alcatraz
@@ -4147,13 +4147,13 @@ Options:
 (B) Birdman of Alcatraz
 (C) Le Samouraï
 (D) Imagine That
-Output:",(A),0.8
+Output:",(A),1.0
 131,35,"Q: Can you recommend a movie similar to Star Wars Episode V - The Empire Strikes Back, The Princess Bride, The Silence of the Lambs, Star Wars Episode IV - A New Hope? Here are some options to choose from:
 (A) The Twilight Samurai
 (B) Love Potion #9
 (C) Fargo
 (D) The Valet
-A:",(C),0.8
+A:",(C),1.0
 131,59,"The task is to find a movie that is similar to The Princess Bride, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, The Silence of the Lambs. The options available are: (A) Fargo
 (B) Love Potion #9
 (C) The Valet
@@ -4173,7 +4173,7 @@ Options:
 (B) The Valet
 (C) The Twilight Samurai
 (D) Fargo
-Output:",(D),0.8
+Output:",(D),0.0
 132,72,"Please recommend a movie that is similar to Austin Powers International Man of Mystery, Mission Impossible, Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back. You can choose from the following options: (A) Self-criticism of a Bourgeois Dog
 (B) Virunga
 (C) American Beauty
@@ -4267,7 +4267,7 @@ Recommended movie:",(A),0.0
 134,83,"The task is to find a movie that is similar to the list of movies provided in Seven Samurai, LA Confidential, Spirited Away, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb. You will be given a set of (A) The Usual Suspects
 (B) Scrooge
 (C) Return to the Blue Lagoon
-(D) Practical Magic to choose from.",(A),0.6
+(D) Practical Magic to choose from.",(A),1.0
 134,100,"I need a recommendation for a movie that is similar to the movies in LA Confidential, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, Spirited Away, Seven Samurai. Please choose an option from the following: (A) Return to the Blue Lagoon
 (B) The Usual Suspects
 (C) Practical Magic
@@ -4328,7 +4328,7 @@ Options:
 (B) The Hot Chick
 (C) Batman
 (D) Somewhere
-Output:",(C),0.8
+Output:",(C),1.0
 136,156,"Given a list of movies, recommend a similar movie from a list of options. Choose the movie that you think is most similar to the given list.
 List of movies: The Silence of the Lambs, Jurassic Park, Apollo 13, Forrest Gump
 Options:
@@ -4351,11 +4351,11 @@ Options:
 (B) Alex and Emma
 (C) Tin Cup
 (D) Gladiator
-A:",(D),0.8
+A:",(D),0.0
 137,74,"Your task is to find a movie similar to Saving Private Ryan, The Matrix, Raiders of the Lost Ark, Inception. You have the following options to choose from: (A) The Emperor and the Assassin
 (B) Gladiator
 (C) Tin Cup
-(D) Alex and Emma.",(B),0.8
+(D) Alex and Emma.",(B),1.0
 137,127,"Please recommend movies similar to the given list of movies. You will be provided with a list of movies and you should find a movie similar to them. Then, provide options for the user to choose from. 
 Movie list: Raiders of the Lost Ark, Saving Private Ryan, Inception, The Matrix
 Options:
@@ -4380,7 +4380,7 @@ Options:
 (C) Tin Cup
 (D) The Emperor and the Assassin
 Output:
-Recommended movie:",(B),0.6
+Recommended movie:",(B),1.0
 138,72,"Please recommend a movie that is similar to Rear Window, The Professional, One Flew Over the Cuckoo's Nest, Goodfellas. You can choose from the following options: (A) Léon The Professional
 (B) A Night to Remember
 (C) The Swan Princess
@@ -4404,7 +4404,7 @@ Options:
 (B) A Night to Remember
 (C) Kinsey
 (D) Léon The Professional
-Output:",(D),0.8
+Output:",(D),1.0
 138,170,"Based on your movie preferences, I can recommend a similar movie for you. Please provide me with a list of movies you enjoyed and a set of options to choose from.
 Movies: The Professional, One Flew Over the Cuckoo's Nest, Rear Window, Goodfellas
 Options:
@@ -4413,7 +4413,7 @@ Options:
 (C) Kinsey
 (D) The Swan Princess
 Output:
-Recommended movie:",(A),0.6
+Recommended movie:",(A),1.0
 139,72,"Please recommend a movie that is similar to Go, Star Wars Episode VI - Return of the Jedi, The Usual Suspects, Pulp Fiction. You can choose from the following options: (A) Auto Focus
 (B) Marauders
 (C) The Sign of Four
@@ -4458,7 +4458,7 @@ Output:",(A),0.0
 140,81,"Your task is to recommend a movie similar to the list of movies provided in Schindler's List, The Fugitive, Braveheart, The Mask. You will be given a set of (A) Careful What You Wish For
 (B) The Shawshank Redemption
 (C) Interstate 60
-(D) Primary Colors to choose from.",(B),0.8
+(D) Primary Colors to choose from.",(B),1.0
 140,125,"Recommend a movie similar to the given list of movies. Choose from the list of movie options provided.
 Movie list: Schindler's List, Braveheart, The Mask, The Fugitive
 Options:
@@ -4466,7 +4466,7 @@ Options:
 (B) Primary Colors
 (C) The Shawshank Redemption
 (D) Interstate 60
-Output:",(C),0.8
+Output:",(C),1.0
 140,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: The Fugitive, Braveheart, Schindler's List, The Mask
 Options:
@@ -4474,7 +4474,7 @@ Options:
 (B) Careful What You Wish For
 (C) The Shawshank Redemption
 (D) Primary Colors
-Output:",(C),0.8
+Output:",(C),1.0
 140,176,"Based on the list of movies you provided, which of the following options would you prefer to watch next?
 Movie list: The Fugitive, Schindler's List, The Mask, Braveheart
 Options:
@@ -4522,7 +4522,7 @@ Options:
 (C) Pulp Fiction
 (D) The Limey
 Output:
-Recommended movie:",(C),0.8
+Recommended movie:",(C),1.0
 142,25,"Q: Can you suggest a movie similar to The Silence of the Lambs, Jurassic Park, The Fugitive, Forrest Gump?
 Please choose from the following options:
 (A) Braveheart
@@ -4545,7 +4545,7 @@ Options:
 (B) Children of the Corn III
 (C) The Burrowers
 (D) Braveheart
-Output:",(D),0.8
+Output:",(D),1.0
 142,146,"Based on your preferences, we can recommend movies that are similar to the ones you like. We will provide you with a list of options, and you can select the one that you think is the most similar to the movies you provided. 
 Movies: Forrest Gump, Jurassic Park, The Fugitive, The Silence of the Lambs
 Options:
@@ -4553,14 +4553,14 @@ Options:
 (B) Hood of Horror
 (C) The Burrowers
 (D) Braveheart
-Output:",(D),0.8
+Output:",(D),1.0
 143,23,"Q: Can you recommend a movie that is similar to the ones in The Shawshank Redemption, Schindler's List, Dances with Wolves, Pulp Fiction?
 Options:
 (A) Braveheart
 (B) Sound of the Mountain
 (C) Candleshoe
 (D) Ruby Red
-A:",(A),0.8
+A:",(A),1.0
 143,55,"You need to find a movie that is similar to Dances with Wolves, Pulp Fiction, Schindler's List, The Shawshank Redemption. You will be given a list of recommended movies to choose from, which are: (A) Ruby Red
 (B) Braveheart
 (C) Sound of the Mountain
@@ -4572,7 +4572,7 @@ A:",(A),0.8
 143,104,"Your goal is to find a movie that is similar to Dances with Wolves, Schindler's List, The Shawshank Redemption, Pulp Fiction. You can choose from the following options: (A) Candleshoe
 (B) Braveheart
 (C) Ruby Red
-(D) Sound of the Mountain.",(B),0.8
+(D) Sound of the Mountain.",(B),1.0
 143,141,"Looking for movie recommendations? We've got you covered! Simply provide us with a list of movies you love, and we'll suggest similar movies for you to enjoy. Choose the option that best matches your preferences and get ready for a great movie night!
 List of movies: Dances with Wolves, Pulp Fiction, The Shawshank Redemption, Schindler's List
 Options:
@@ -4587,7 +4587,7 @@ Options:
 (B) Being John Malkovich
 (C) Cookie's Fortune
 (D) I
-A:",(B),0.2
+A:",(B),0.4
 144,59,"The task is to find a movie that is similar to The Fugitive, Star Wars Episode IV - A New Hope, Monty Python and the Holy Grail, Goodfellas. The options available are: (A) I
 (B) Cookie's Fortune
 (C) Being John Malkovich
@@ -4595,7 +4595,7 @@ A:",(B),0.2
 144,65,"Given a list of movies The Fugitive, Goodfellas, Monty Python and the Holy Grail, Star Wars Episode IV - A New Hope, please recommend a movie that is similar to them from the following options: (A) I
 (B) Being John Malkovich
 (C) Cookie's Fortune
-(D) Robot.",(B),0.8
+(D) Robot.",(B),1.0
 144,119,"Recommend movies similar to a given list of movies. You will be presented with a list of options and asked to select the movie that is most similar to the given list.
 List of movies: Monty Python and the Holy Grail, The Fugitive, Star Wars Episode IV - A New Hope, Goodfellas
 Options:
@@ -4603,7 +4603,7 @@ Options:
 (B) Being John Malkovich
 (C) I
 (D) Cookie's Fortune
-Output:",(B),0.8
+Output:",(B),1.0
 144,158,"Given a list of movies, recommend a movie that is most similar to the given list. Choose the correct option from the list of movies provided.
 List of movies: Goodfellas, The Fugitive, Monty Python and the Holy Grail, Star Wars Episode IV - A New Hope
 Options:
@@ -4611,7 +4611,7 @@ Options:
 (B) I
 (C) Cookie's Fortune
 (D) Robot
-Output:",(A),0.6
+Output:",(A),1.0
 146,7,"Q: Can you suggest a movie that is similar to the movies in Pulp Fiction, Dances with Wolves, Forrest Gump, The Shawshank Redemption?
 Options:
 (A) The Fugitive
@@ -4625,17 +4625,17 @@ Please choose from the following options:
 (B) While You Were Sleeping
 (C) The Fugitive
 (D) Night at the Museum Secret of the Tomb
-A:",(C),0.8
+A:",(C),1.0
 146,44,"Q: Can you recommend a movie similar to the following Pulp Fiction, Dances with Wolves, The Shawshank Redemption, Forrest Gump?
 Choose from the following options:
 (A) The Fugitive
 (B) While You Were Sleeping
 (C) Women in Trouble
-(D) Night at the Museum Secret of the Tomb",(A),0.8
+(D) Night at the Museum Secret of the Tomb",(A),0.0
 146,83,"The task is to find a movie that is similar to the list of movies provided in Pulp Fiction, Dances with Wolves, The Shawshank Redemption, Forrest Gump. You will be given a set of (A) While You Were Sleeping
 (B) Night at the Museum Secret of the Tomb
 (C) Women in Trouble
-(D) The Fugitive to choose from.",(D),0.6
+(D) The Fugitive to choose from.",(D),1.0
 146,128,"Given a 'movie_list' and a list of 'options', recommend movies similar to the movies in the 'movie_list'. The task format is multi-choice.
 movie_list: Dances with Wolves, Pulp Fiction, Forrest Gump, The Shawshank Redemption
 options: (A) Women in Trouble
@@ -4686,11 +4686,11 @@ Choose from the following options:
 (B) Apollo 13
 (C) Great Balls of Fire!
 (D) The Atomic Submarine
-A:",(B),1.0
+A:",(B),0.0
 148,66,"Recommend a movie that is similar to the list of movies The Usual Suspects, Jurassic Park, Batman, Forrest Gump from the following options: (A) Apollo 13
 (B) Battle Beyond the Stars
 (C) Great Balls of Fire!
-(D) The Atomic Submarine.",(A),0.8
+(D) The Atomic Submarine.",(A),1.0
 148,141,"Looking for movie recommendations? We've got you covered! Simply provide us with a list of movies you love, and we'll suggest similar movies for you to enjoy. Choose the option that best matches your preferences and get ready for a great movie night!
 List of movies: Forrest Gump, Jurassic Park, The Usual Suspects, Batman
 Options:
@@ -4698,7 +4698,7 @@ Options:
 (B) The Atomic Submarine
 (C) Battle Beyond the Stars
 (D) Apollo 13
-Output:",(D),0.8
+Output:",(D),1.0
 148,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: Batman, Jurassic Park, Forrest Gump, The Usual Suspects
 Options:
@@ -4706,7 +4706,7 @@ Options:
 (B) Great Balls of Fire!
 (C) Apollo 13
 (D) The Atomic Submarine
-Output:",(C),0.8
+Output:",(C),1.0
 148,173,"Given a list of movies, recommend a movie that is similar to them.
 Movie list: Jurassic Park, Batman, Forrest Gump, The Usual Suspects
 Options:
@@ -4735,7 +4735,7 @@ Options:
 (B) Les Misérables
 (C) Baby's Day Out
 (D) Terminator 2 Judgment Day
-Output:",(D),0.8
+Output:",(D),1.0
 149,153,"Given a list of movies, recommend a movie that is most similar to the given list. Select the option that you think is the best match.
 List of movies: Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode VI - Return of the Jedi, The Matrix
 Options:
@@ -4750,7 +4750,7 @@ Here are some options:
 (B) Eichmann
 (C) Kazaam
 (D) Children of the Night
-A:",(A),0.4
+A:",(A),0.6
 150,62,"The goal is to find a movie that is similar to The Usual Suspects, Schindler's List, Braveheart, Pulp Fiction. You can choose from the following options: (A) Eichmann
 (B) Children of the Night
 (C) Apollo 13
@@ -4781,7 +4781,7 @@ A:",(D),1.0
 151,98,"Provide a recommendation for a movie similar to the list of movies provided in The Shawshank Redemption, Apollo 13, Schindler's List, Pretty Woman. You can choose from the following options: (A) Dances with Wolves
 (B) In July
 (C) Heartbreaker
-(D) Black Snake Moan.",(A),0.8
+(D) Black Snake Moan.",(A),1.0
 151,154,"Given a list of movies, recommend a similar movie from the following options. Select the option that you think is most similar to the given list of movies.
 List of movies: Schindler's List, Pretty Woman, Apollo 13, The Shawshank Redemption
 Options:
@@ -4790,7 +4790,7 @@ Options:
 (C) Dances with Wolves
 (D) Heartbreaker
 Output:
-Recommended movie:",(C),0.6
+Recommended movie:",(C),1.0
 151,160,"Based on a list of movies, recommend a similar movie from the following options. Choose the movie that is most similar to the given list.
 List of movies: Pretty Woman, The Shawshank Redemption, Schindler's List, Apollo 13
 Options:
@@ -4837,12 +4837,12 @@ Options:
 (B) Super Mario Bros
 (C) Crimson Tide
 (D) Runaway Brain
-Output:",(C),0.6
+Output:",(C),1.0
 153,70,"Provide a recommendation for a movie that is similar to the movies in American Beauty, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb, The Lord of the Rings The Two Towers, Seven Samurai.
 Select one of the following options: (A) Latter Days
 (B) The Devil and Daniel Johnston
 (C) The Silence of the Lambs
-(D) Dirty Dancing Havana Nights",(C),0.8
+(D) Dirty Dancing Havana Nights",(C),1.0
 153,71,"Find a movie that shares similarities with the movies in The Lord of the Rings The Two Towers, Seven Samurai, American Beauty, Dr Strangelove or How I Learned to Stop Worrying and Love the Bomb.
 Choose an option from the list below: (A) The Devil and Daniel Johnston
 (B) Dirty Dancing Havana Nights
@@ -4874,7 +4874,7 @@ Options:
 (B) Gray's Anatomy
 (C) Wadjda
 (D) The Shaggy DA
-A:",(A),0.8
+A:",(A),1.0
 154,64,"The task is to recommend a movie that is similar to American Beauty, Star Wars Episode IV - A New Hope, Seven, Star Wars Episode V - The Empire Strikes Back from the following options: (A) Wadjda
 (B) Gray's Anatomy
 (C) Rear Window
@@ -4887,7 +4887,7 @@ Choose an option from the following: (A) Rear Window
 154,79,"Can you suggest movies that are similar to the ones in Star Wars Episode V - The Empire Strikes Back, Seven, American Beauty, Star Wars Episode IV - A New Hope? Here are your options: (A) Rear Window
 (B) Wadjda
 (C) The Shaggy DA
-(D) Gray's Anatomy.",(A),1.0
+(D) Gray's Anatomy.",(A),0.0
 154,93,"We need a recommendation for a movie that is similar to Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back, American Beauty, Seven. Please choose from the following options: (A) Wadjda
 (B) The Shaggy DA
 (C) Rear Window
@@ -4914,7 +4914,7 @@ Options:
 (C) Kiss Kiss Bang Bang
 (D) Monty Python and the Holy Grail
 Output:
-Option selected:",(D),0.6
+Option selected:",(D),0.8
 155,178,"Recommend a movie similar to a given list of movies.
 movie_list: Goodfellas, The Godfather, Pulp Fiction, The Usual Suspects
 Options:
@@ -4952,14 +4952,14 @@ Select one of the following options: (A) Raiders of the Lost Ark
 (B) Raiders of the Lost Ark
 (C) Changing Lanes
 (D) The Ewok Adventure.
-Output:",(B),0.8
+Output:",(B),0.0
 157,20,"Q: Can you suggest a movie that is similar to the following list of movies: Groundhog Day, Raiders of the Lost Ark, The Silence of the Lambs, Fargo?
 Choose one from the following options:
 (A) Tape
 (B) Stardust
 (C) The Princess Bride
 (D) Gettysburg 
-A:",(C),0.8
+A:",(C),1.0
 157,143,"Based on a list of movies, recommend a movie that is most similar to the given list. Choose the best option from the list of choices provided.
 List of movies: The Silence of the Lambs, Groundhog Day, Fargo, Raiders of the Lost Ark
 Options:
@@ -4984,7 +4984,7 @@ Options:
 (B) The Princess Bride
 (C) Gettysburg
 (D) Tape
-Output:",(B),0.6
+Output:",(B),0.8
 157,172,"Recommend a movie similar to a given list of movies.
 Movie list: Fargo, The Silence of the Lambs, Groundhog Day, Raiders of the Lost Ark
 Options:
@@ -4993,14 +4993,14 @@ Options:
 (C) Stardust
 (D) Gettysburg
 Output:
-Recommended movie:",(A),1.0
+Recommended movie:",(A),0.0
 158,6,"Q: Can you suggest a movie that is similar to any of the following: Get Shorty, The Fugitive, Dances with Wolves, Braveheart?
 Options:
 (A) The Shawshank Redemption
 (B) To Be or Not to Be
 (C) Barbershop 2 Back in Business
 (D) Cool Runnings
-A:",(A),0.8
+A:",(A),1.0
 158,68,"Recommend a movie that is similar to the movies in The Fugitive, Braveheart, Get Shorty, Dances with Wolves.
 Select one of the following options: (A) Barbershop 2 Back in Business
 (B) Cool Runnings
@@ -5021,7 +5021,7 @@ Select one of the following options: (A) Barbershop 2 Back in Business
 159,61,"You are given a list of movies The Silence of the Lambs, Goodfellas, Star Wars Episode V - The Empire Strikes Back, Raiders of the Lost Ark. Please suggest a movie that is similar to them from the following options: (A) The Wedding Ringer
 (B) Delivery Man
 (C) Ip Man 3
-(D) Star Wars Episode IV - A New Hope.",(D),0.8
+(D) Star Wars Episode IV - A New Hope.",(D),1.0
 159,73,"Given a list of movies Raiders of the Lost Ark, Goodfellas, Star Wars Episode V - The Empire Strikes Back, The Silence of the Lambs, please suggest a movie that is similar to them. You can choose from the following options: (A) Ip Man 3
 (B) The Wedding Ringer
 (C) Star Wars Episode IV - A New Hope
@@ -5033,7 +5033,7 @@ Options:
 (B) The Wedding Ringer
 (C) Delivery Man
 (D) Star Wars Episode IV - A New Hope
-Output:",(D),1.0
+Output:",(D),0.0
 159,135,"Find a movie similar to a given list of movies. Choose the option that best matches the given list of movies.
 movie_list: Goodfellas, Star Wars Episode V - The Empire Strikes Back, The Silence of the Lambs, Raiders of the Lost Ark
 Options:
@@ -5064,7 +5064,7 @@ A:",(D),1.0
 160,102,"Your task is to find a movie that is similar to Raiders of the Lost Ark, Gladiator, Schindler's List, Saving Private Ryan. You will be given the following options to choose from: (A) Oh
 (B) Hello On Broadway
 (C) The Matrix
-(D) Scorpio.",(C),0.8
+(D) Scorpio.",(C),1.0
 160,119,"Recommend movies similar to a given list of movies. You will be presented with a list of options and asked to select the movie that is most similar to the given list.
 List of movies: Schindler's List, Saving Private Ryan, Gladiator, Raiders of the Lost Ark
 Options:
@@ -5092,7 +5092,7 @@ A:",(B),1.0
 Choose an option from the following: (A) Daddy Day Camp
 (B) Untitled Spider-Man Reboot
 (C) The Edge of Love
-(D) The Lion King",(D),0.8
+(D) The Lion King",(D),1.0
 161,122,"Please recommend movies similar to the given list of movies. Choose the best option from the list of movies provided. 
 Movie list: Aladdin, The Fugitive, Toy Story, Terminator 2 Judgment Day
 Options:
@@ -5116,7 +5116,7 @@ Options:
 (B) The Lion King
 (C) Untitled Spider-Man Reboot
 (D) Daddy Day Camp
-Output:",(B),0.8
+Output:",(B),1.0
 162,111,"Given a list of movies, recommend a movie that is most similar to the given list. You will be provided with a list of movies as options, and you must choose the movie that is most similar to the given list.
 List of movies: Star Wars Episode IV - A New Hope, Inception, The Matrix, Raiders of the Lost Ark
 Options:
@@ -5124,7 +5124,7 @@ Options:
 (B) Attack of the Killer Tomatoes!
 (C) Ernest Rides Again
 (D) White Christmas
-Output:",(A),0.4
+Output:",(A),0.6
 162,115,"Given a list of movies, recommend a movie that is most similar to the given list. You will be provided with a list of movies as options, and you need to choose the correct answer.
 List of movies: Raiders of the Lost Ark, Inception, The Matrix, Star Wars Episode IV - A New Hope
 Options:
@@ -5132,7 +5132,7 @@ Options:
 (B) Up
 (C) White Christmas
 (D) Attack of the Killer Tomatoes!
-Output:",(B),1.0
+Output:",(B),0.0
 162,118,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to select the movie that is most similar to the given list of movies.
 List of movies: Inception, Raiders of the Lost Ark, The Matrix, Star Wars Episode IV - A New Hope
 Options:
@@ -5140,7 +5140,7 @@ Options:
 (B) Ernest Rides Again
 (C) Attack of the Killer Tomatoes!
 (D) Up
-Output:",(D),1.0
+Output:",(D),0.0
 162,172,"Recommend a movie similar to a given list of movies.
 Movie list: Raiders of the Lost Ark, Inception, Star Wars Episode IV - A New Hope, The Matrix
 Options:
@@ -5149,7 +5149,7 @@ Options:
 (C) Up
 (D) White Christmas
 Output:
-Recommended movie:",(C),1.0
+Recommended movie:",(C),0.0
 162,173,"Given a list of movies, recommend a movie that is similar to them.
 Movie list: The Matrix, Raiders of the Lost Ark, Star Wars Episode IV - A New Hope, Inception
 Options:
@@ -5172,7 +5172,7 @@ A:",(B),1.0
 164,50,"Can you find a movie that is similar to The Matrix, Saving Private Ryan, Inception, Gladiator? I have some options for you to choose from: (A) Bad Boy Bubby
 (B) Whatever Works
 (C) Porco Rosso
-(D) Raiders of the Lost Ark.",(D),0.8
+(D) Raiders of the Lost Ark.",(D),0.0
 164,123,"Please recommend movies similar to the given list of movies. Choose a movie from the list of options that is most similar to the movies in the given movie list.
 Movie list: Saving Private Ryan, Inception, Gladiator, The Matrix
 Options:
@@ -5180,7 +5180,7 @@ Options:
 (B) Bad Boy Bubby
 (C) Whatever Works
 (D) Porco Rosso
-Output:",(A),0.8
+Output:",(A),1.0
 164,156,"Given a list of movies, recommend a similar movie from a list of options. Choose the movie that you think is most similar to the given list.
 List of movies: Gladiator, Saving Private Ryan, The Matrix, Inception
 Options:
@@ -5188,7 +5188,7 @@ Options:
 (B) Porco Rosso
 (C) Raiders of the Lost Ark
 (D) Whatever Works
-Output:",(C),0.8
+Output:",(C),1.0
 165,29,"Q: Can you recommend a movie similar to the following list: Pulp Fiction, The Matrix, Forrest Gump, Inception? Here are some options to choose from:
 (A) Win Win
 (B) Like Crazy
@@ -5214,7 +5214,7 @@ Options:
 (B) Independence Day
 (C) Morvern Callar
 (D) Win Win
-Output:",(B),1.0
+Output:",(B),0.0
 165,152,"Given a list of movies, recommend a movie that is most similar to the given list. Choose the correct option from a list of movies provided as choices.
 List of movies: Inception, The Matrix, Forrest Gump, Pulp Fiction
 Options:
@@ -5222,7 +5222,7 @@ Options:
 (B) Win Win
 (C) Morvern Callar
 (D) Independence Day
-Output:",(D),0.8
+Output:",(D),0.0
 166,7,"Q: Can you suggest a movie that is similar to the movies in The Lion King, Terminator 2 Judgment Day, Aladdin, Batman?
 Options:
 (A) Fright Night
@@ -5260,7 +5260,7 @@ A:",(B),0.0
 167,100,"I need a recommendation for a movie that is similar to the movies in The Shawshank Redemption, Dances with Wolves, Braveheart, Apollo 13. Please choose an option from the following: (A) Tokyo Decadence
 (B) Batman
 (C) Beneath the Planet of the Apes
-(D) I Sell the Dead.",(B),0.8
+(D) I Sell the Dead.",(B),1.0
 167,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: Dances with Wolves, Apollo 13, The Shawshank Redemption, Braveheart
 Options:
@@ -5268,7 +5268,7 @@ Options:
 (B) Tokyo Decadence
 (C) Batman
 (D) Beneath the Planet of the Apes
-Output:",(C),0.8
+Output:",(C),1.0
 167,162,"Based on a list of movies, recommend a similar movie from the given options.
 Movie list: The Shawshank Redemption, Dances with Wolves, Braveheart, Apollo 13
 Options:
@@ -5283,13 +5283,13 @@ Options:
 (B) Scooby-Doo Goes Hollywood
 (C) Memento
 (D) Sorority House Massacre
-A:",(C),0.8
+A:",(C),0.0
 168,35,"Q: Can you recommend a movie similar to Kill Bill Vol 1, Fight Club, The Shawshank Redemption, Kill Bill Vol 2? Here are some options to choose from:
 (A) Evolution
 (B) Scooby-Doo Goes Hollywood
 (C) Sorority House Massacre
 (D) Memento
-A:",(D),0.6
+A:",(D),1.0
 168,141,"Looking for movie recommendations? We've got you covered! Simply provide us with a list of movies you love, and we'll suggest similar movies for you to enjoy. Choose the option that best matches your preferences and get ready for a great movie night!
 List of movies: The Shawshank Redemption, Fight Club, Kill Bill Vol 2, Kill Bill Vol 1
 Options:
@@ -5305,7 +5305,7 @@ Options:
 (B) Memento
 (C) Sorority House Massacre
 (D) Scooby-Doo Goes Hollywood
-Output:",(B),0.8
+Output:",(B),1.0
 168,173,"Given a list of movies, recommend a movie that is similar to them.
 Movie list: Kill Bill Vol 2, The Shawshank Redemption, Kill Bill Vol 1, Fight Club
 Options:
@@ -5313,7 +5313,7 @@ Options:
 (B) Scooby-Doo Goes Hollywood
 (C) Sorority House Massacre
 (D) Evolution
-Output:",(A),0.8
+Output:",(A),1.0
 169,86,"The objective of this task is to recommend a movie that is similar to the list of movies provided in Stargate, Dances with Wolves, The Shawshank Redemption, The Fugitive. You will be presented with a set of (A) Bone Tomahawk
 (B) Clear and Present Danger
 (C) Mambo Italiano
@@ -5348,14 +5348,14 @@ Here are some options:
 (B) Phenomena
 (C) In Good Company
 (D) The Shawshank Redemption
-A:",(D),1.0
+A:",(D),0.0
 170,19,"Q: Can you recommend a movie similar to Apollo 13, Pulp Fiction, Pretty Woman, Braveheart?
 Choose from the following options:
 (A) The Shawshank Redemption
 (B) In Good Company
 (C) Phenomena
 (D) A Summer's Tale
-A:",(A),0.8
+A:",(A),1.0
 170,89,"Given the list of movies Apollo 13, Braveheart, Pulp Fiction, Pretty Woman, please recommend a movie that is similar to them. You can choose from the following options: (A) A Summer's Tale
 (B) In Good Company
 (C) Phenomena
@@ -5397,7 +5397,7 @@ A:",(B),1.0
 (C) The Shawshank Redemption
 (D) The Sandpiper.
 Output:
-Recommended movie:",(C),0.8
+Recommended movie:",(C),1.0
 171,173,"Given a list of movies, recommend a movie that is similar to them.
 Movie list: Pulp Fiction, The Usual Suspects, Schindler's List, Fargo
 Options:
@@ -5411,16 +5411,16 @@ Output:",(D),1.0
 (B) Being John Malkovich
 (C) Save the Last Dance
 (D) Passion
-A:",(B),0.6
+A:",(B),1.0
 173,49,"I need a recommendation for a movie that is similar to The Princess Bride, Star Wars Episode IV - A New Hope, American Beauty, Romancing the Stone. You can choose from the following options: (A) Save the Last Dance
 (B) Passion
 (C) Trial and Error
-(D) Being John Malkovich.",(D),0.6
+(D) Being John Malkovich.",(D),1.0
 173,68,"Recommend a movie that is similar to the movies in Star Wars Episode IV - A New Hope, Romancing the Stone, The Princess Bride, American Beauty.
 Select one of the following options: (A) Being John Malkovich
 (B) Save the Last Dance
 (C) Passion
-(D) Trial and Error",(A),0.8
+(D) Trial and Error",(A),1.0
 173,69,"Based on the list of movies American Beauty, Romancing the Stone, Star Wars Episode IV - A New Hope, The Princess Bride, suggest a movie that is similar.
 Choose from the following options: (A) Save the Last Dance
 (B) Being John Malkovich
@@ -5444,7 +5444,7 @@ A:",(B),0.0
 175,89,"Given the list of movies Forrest Gump, Fargo, Seven, The Silence of the Lambs, please recommend a movie that is similar to them. You can choose from the following options: (A) Cleanskin
 (B) Schindler's List
 (C) Boy
-(D) The Diary of Anne Frank.",(B),0.8
+(D) The Diary of Anne Frank.",(B),1.0
 175,105,"Recommend movies similar to a given list of movies. You will be presented with a list of options, and you must select the option that is most similar to the given list of movies.
 Given list of movies: Seven, The Silence of the Lambs, Fargo, Forrest Gump
 Options:
@@ -5452,7 +5452,7 @@ Options:
 (B) Schindler's List
 (C) Cleanskin
 (D) The Diary of Anne Frank
-Output:",(B),0.8
+Output:",(B),1.0
 175,125,"Recommend a movie similar to the given list of movies. Choose from the list of movie options provided.
 Movie list: Seven, Fargo, Forrest Gump, The Silence of the Lambs
 Options:
@@ -5460,7 +5460,7 @@ Options:
 (B) Cleanskin
 (C) Schindler's List
 (D) Boy
-Output:",(C),1.0
+Output:",(C),0.0
 175,160,"Based on a list of movies, recommend a similar movie from the following options. Choose the movie that is most similar to the given list.
 List of movies: Fargo, The Silence of the Lambs, Forrest Gump, Seven
 Options:
@@ -5468,19 +5468,19 @@ Options:
 (B) Cleanskin
 (C) Schindler's List
 (D) The Diary of Anne Frank
-Output:",(C),0.8
+Output:",(C),1.0
 176,51,"Your task is to suggest a movie that is similar to The Terminator, Back to the Future, Star Wars Episode VI - Return of the Jedi, Toy Story. Please choose from the following options: (A) 'night Mother
 (B) Of Human Bondage
 (C) Star Wars Episode IV - A New Hope
-(D) Europa.",(C),0.8
+(D) Europa.",(C),1.0
 176,84,"Your goal is to recommend a movie that is similar to the list of movies provided in The Terminator, Toy Story, Back to the Future, Star Wars Episode VI - Return of the Jedi. You will have to choose from a set of (A) Star Wars Episode IV - A New Hope
 (B) Of Human Bondage
 (C) 'night Mother
-(D) Europa.",(A),0.8
+(D) Europa.",(A),1.0
 176,86,"The objective of this task is to recommend a movie that is similar to the list of movies provided in Toy Story, Star Wars Episode VI - Return of the Jedi, Back to the Future, The Terminator. You will be presented with a set of (A) Europa
 (B) 'night Mother
 (C) Star Wars Episode IV - A New Hope
-(D) Of Human Bondage to choose from.",(C),0.8
+(D) Of Human Bondage to choose from.",(C),0.0
 176,130,"Given a list of movies and a set of options, recommend a movie similar to one of the movies in the list. Use the options to guide your recommendation.
 Movie list: Back to the Future, Toy Story, The Terminator, Star Wars Episode VI - Return of the Jedi
 Options:
@@ -5489,7 +5489,7 @@ Options:
 (C) 'night Mother
 (D) Of Human Bondage
 Output:
-Recommended movie:",(B),0.8
+Recommended movie:",(B),1.0
 176,136,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the best option from the following set of movies: (A) Europa
 (B) 'night Mother
 (C) Star Wars Episode IV - A New Hope
@@ -5500,7 +5500,7 @@ Options:
 (B) 'night Mother
 (C) Star Wars Episode IV - A New Hope
 (D) Of Human Bondage
-Output:",(C),0.8
+Output:",(C),1.0
 177,7,"Q: Can you suggest a movie that is similar to the movies in Braveheart, Schindler's List, The Usual Suspects, Dances with Wolves?
 Options:
 (A) The Way of the Gun
@@ -5575,7 +5575,7 @@ Options:
 (C) It Happened One Night
 (D) The Usual Suspects
 Output:
-Option selected:",(D),0.6
+Option selected:",(D),1.0
 179,19,"Q: Can you recommend a movie similar to The Godfather, Pi, X-Men, American Beauty?
 Choose from the following options:
 (A) The Matrix
@@ -5628,7 +5628,7 @@ A:",(B),1.0
 180,90,"I need a recommendation for a movie that is similar to The Lord of the Rings The Fellowship of the Ring, American Beauty, Star Wars Episode V - The Empire Strikes Back, Forrest Gump. Please select one of the following options: (A) The Lord of the Rings The Two Towers
 (B) Waking Life
 (C) The Adventures of Sherlock Holmes and Doctor Watson
-(D) Upside Down The Creation Records Story.",(A),0.8
+(D) Upside Down The Creation Records Story.",(A),1.0
 180,117,"Given a list of movies, recommend a movie that is most similar to the given list using a multi-choice format. You will be provided with a list of movies as options, and you need to select the movie that is most similar to the given list of movies.
 List of movies: Star Wars Episode V - The Empire Strikes Back, Forrest Gump, American Beauty, The Lord of the Rings The Fellowship of the Ring
 Options:
@@ -5650,7 +5650,7 @@ Options:
 (B) The Shawshank Redemption
 (C) Aguirre The Wrath of God
 (D) Iron Eagle IV
-A:",(B),0.8
+A:",(B),1.0
 181,63,"Please find a movie that is similar to Apollo 13, Pulp Fiction, Dances with Wolves, Schindler's List from the following options: (A) The Shawshank Redemption
 (B) Iron Eagle IV
 (C) Knockin' on Heaven's Door
@@ -5658,7 +5658,7 @@ A:",(B),0.8
 181,65,"Given a list of movies Dances with Wolves, Apollo 13, Pulp Fiction, Schindler's List, please recommend a movie that is similar to them from the following options: (A) The Shawshank Redemption
 (B) Iron Eagle IV
 (C) Aguirre The Wrath of God
-(D) Knockin' on Heaven's Door.",(A),0.8
+(D) Knockin' on Heaven's Door.",(A),1.0
 181,115,"Given a list of movies, recommend a movie that is most similar to the given list. You will be provided with a list of movies as options, and you need to choose the correct answer.
 List of movies: Pulp Fiction, Schindler's List, Dances with Wolves, Apollo 13
 Options:
@@ -5666,7 +5666,7 @@ Options:
 (B) The Shawshank Redemption
 (C) Knockin' on Heaven's Door
 (D) Iron Eagle IV
-Output:",(B),1.0
+Output:",(B),0.0
 181,137,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the most appropriate option from the set of movies provided. 
 List of movies: Pulp Fiction, Dances with Wolves, Schindler's List, Apollo 13
 Options:
@@ -5681,14 +5681,14 @@ Please choose from the following options:
 (B) The Dinner Game
 (C) Ashby
 (D) Groove
-A:",(A),0.6
+A:",(A),1.0
 182,36,"Q: Can you recommend a movie that is similar to any of the movies in Toy Story, Braveheart, The Usual Suspects, Dances with Wolves?
 Options:
 (A) The Dinner Game
 (B) Ashby
 (C) Groove
 (D) Schindler's List
-A:",(D),1.0
+A:",(D),0.0
 182,122,"Please recommend movies similar to the given list of movies. Choose the best option from the list of movies provided. 
 Movie list: The Usual Suspects, Toy Story, Braveheart, Dances with Wolves
 Options:
@@ -5712,7 +5712,7 @@ Options:
 (B) Ashby
 (C) The Dinner Game
 (D) Groove
-Output:",(A),0.8
+Output:",(A),1.0
 183,31,"Q: Can you suggest a movie that is similar to The Hunt for Red October, The Fugitive, The Usual Suspects, The Sixth Sense? Choose the best option from the following:
 Options:
 (A) Mr Holmes
@@ -5748,7 +5748,7 @@ Please choose from the following options:
 (B) The Post
 (C) The Shawshank Redemption
 (D) Rachel Getting Married
-A:",(C),0.8
+A:",(C),1.0
 184,77,"Please recommend movies that are similar to the following list of movies: Crimson Tide, Braveheart, Dances with Wolves, The Fugitive. You can choose from the following options: (A) Rachel Getting Married
 (B) Howard the Duck
 (C) The Post
@@ -5764,7 +5764,7 @@ Options:
 (B) Howard the Duck
 (C) The Shawshank Redemption
 (D) Rachel Getting Married
-Output:",(C),0.8
+Output:",(C),1.0
 184,118,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to select the movie that is most similar to the given list of movies.
 List of movies: Crimson Tide, Braveheart, Dances with Wolves, The Fugitive
 Options:
@@ -5772,7 +5772,7 @@ Options:
 (B) Rachel Getting Married
 (C) The Post
 (D) Howard the Duck
-Output:",(A),0.8
+Output:",(A),1.0
 185,6,"Q: Can you suggest a movie that is similar to any of the following: Jurassic Park, Schindler's List, Dumb & Dumber, Forrest Gump?
 Options:
 (A) Gone with the Wind
@@ -5847,7 +5847,7 @@ Output:",(C),0.0
 187,55,"You need to find a movie that is similar to The Usual Suspects, The Matrix, Pi, The Godfather. You will be given a list of recommended movies to choose from, which are: (A) Pulp Fiction
 (B) Little Miss Marker
 (C) The Spy Next Door
-(D) What Love Is.",(A),0.8
+(D) What Love Is.",(A),1.0
 187,69,"Based on the list of movies The Godfather, Pi, The Usual Suspects, The Matrix, suggest a movie that is similar.
 Choose from the following options: (A) What Love Is
 (B) Pulp Fiction
@@ -5860,7 +5860,7 @@ Options:
 (B) The Spy Next Door
 (C) Little Miss Marker
 (D) Pulp Fiction
-Output:",(D),0.8
+Output:",(D),1.0
 187,108,"Given a list of movies, recommend a similar movie using a multi-choice format. You will be presented with a list of options, and you must select the movie that is most similar to the given list of movies.
 List of movies: The Usual Suspects, Pi, The Godfather, The Matrix
 Options:
@@ -5918,7 +5918,7 @@ A:",(D),0.0
 189,55,"You need to find a movie that is similar to Aladdin, Terminator 2 Judgment Day, The Lion King, The Shawshank Redemption. You will be given a list of recommended movies to choose from, which are: (A) Schindler's List
 (B) Sherlock Jr
 (C) Lilya 4-Ever
-(D) Iron Man & Hulk Heroes United.",(A),0.8
+(D) Iron Man & Hulk Heroes United.",(A),1.0
 189,75,"Please select a movie that is similar to Terminator 2 Judgment Day, Aladdin, The Shawshank Redemption, The Lion King from the following options: (A) Iron Man & Hulk Heroes United
 (B) Lilya 4-Ever
 (C) Sherlock Jr
@@ -5945,7 +5945,7 @@ Options:
 (B) Robots
 (C) Won't You Be My Neighbor
 (D) King of Comedy
-A:",(A),1.0
+A:",(A),0.0
 190,81,"Your task is to recommend a movie similar to the list of movies provided in Saving Private Ryan, The Matrix, Inception, Gladiator. You will be given a set of (A) Won't You Be My Neighbor
 (B) King of Comedy
 (C) Raiders of the Lost Ark
@@ -5960,7 +5960,7 @@ Options: (A) Raiders of the Lost Ark
 (B) Robots
 (C) King of Comedy
 (D) Won't You Be My Neighbor
-Output:",(A),0.8
+Output:",(A),0.0
 190,140,"Q: Find a movie similar to Inception, Gladiator, Saving Private Ryan, The Matrix:
 Options:
 (A) Raiders of the Lost Ark
@@ -5974,7 +5974,7 @@ Choose from the following options:
 (B) Enter the Void
 (C) Contraband
 (D) No Small Affair
-A:",(A),1.0
+A:",(A),0.0
 191,60,"Recommend a movie that is similar to Monsters, Inc, Catch Me If You Can, Shrek, The Lion King from the following options: (A) No Small Affair
 (B) Contraband
 (C) Aladdin
@@ -5986,7 +5986,7 @@ Options:
 (B) Enter the Void
 (C) Contraband
 (D) Aladdin
-Output:",(D),0.4
+Output:",(D),1.0
 191,126,"Please recommend movies similar to the given list of movies. You will be provided with a list of movies and you should suggest options for the user to choose from.
 Movie list: Monsters, Shrek, Inc, Catch Me If You Can, The Lion King
 Options:
@@ -6028,7 +6028,7 @@ Options:
 (B) Falling Down
 (C) The Quiet American
 (D) The Shawshank Redemption
-Output:",(D),0.8
+Output:",(D),0.0
 192,162,"Based on a list of movies, recommend a similar movie from the given options.
 Movie list: Raiders of the Lost Ark, Pulp Fiction, Inception, The Matrix
 Options:
@@ -6036,7 +6036,7 @@ Options:
 (B) Hector and the Search for Happiness
 (C) Falling Down
 (D) The Quiet American
-Output:",(A),0.8
+Output:",(A),1.0
 193,38,"Q: Can you recommend a movie similar to one of these The Fugitive, The Usual Suspects, Crimson Tide, Dances with Wolves:
 Options:
 (A) Bandidas
@@ -6047,7 +6047,7 @@ A:",(C),1.0
 193,64,"The task is to recommend a movie that is similar to Crimson Tide, Dances with Wolves, The Fugitive, The Usual Suspects from the following options: (A) Bandidas
 (B) Too Many Cooks
 (C) Bad Santa
-(D) Braveheart.",(D),0.8
+(D) Braveheart.",(D),1.0
 193,106,"Recommend movies similar to a given list of movies. You will be presented with a list of movies and a multi-choice format with a default prompt and options. Your task is to select the option that is most similar to the given list of movies.
 Given list of movies: Crimson Tide, The Fugitive, The Usual Suspects, Dances with Wolves
 Multi-choice options:
@@ -6055,14 +6055,14 @@ Multi-choice options:
 (B) Bandidas
 (C) Braveheart
 (D) Too Many Cooks
-Output:",(C),0.8
+Output:",(C),1.0
 193,131,"Given a list of movies and a set of options to choose from, recommend a movie similar to the ones in the list.
 Movie list: Dances with Wolves, The Usual Suspects, Crimson Tide, The Fugitive
 Options: (A) Bad Santa
 (B) Braveheart
 (C) Too Many Cooks
 (D) Bandidas
-Output:",(B),0.8
+Output:",(B),1.0
 193,155,"Based on a list of movies, recommend a similar movie from a set of options. Choose the option that best matches the given list.
 List of movies: The Fugitive, Crimson Tide, Dances with Wolves, The Usual Suspects
 Options:
@@ -6070,7 +6070,7 @@ Options:
 (B) Bandidas
 (C) Bad Santa
 (D) Braveheart
-Output:",(D),0.8
+Output:",(D),0.0
 194,31,"Q: Can you suggest a movie that is similar to Raiders of the Lost Ark, Back to the Future, The Terminator, The Matrix? Choose the best option from the following:
 Options:
 (A) Cave of Forgotten Dreams
@@ -6081,15 +6081,15 @@ A:",(B),1.0
 194,59,"The task is to find a movie that is similar to Raiders of the Lost Ark, Back to the Future, The Terminator, The Matrix. The options available are: (A) Cave of Forgotten Dreams
 (B) What's Up
 (C) Tiger Lily
-(D) Batman. Please suggest a movie from these options.",(D),0.8
+(D) Batman. Please suggest a movie from these options.",(D),1.0
 194,61,"You are given a list of movies Raiders of the Lost Ark, The Terminator, Back to the Future, The Matrix. Please suggest a movie that is similar to them from the following options: (A) Cave of Forgotten Dreams
 (B) Tiger Lily
 (C) What's Up
-(D) Batman.",(D),0.8
+(D) Batman.",(D),1.0
 194,83,"The task is to find a movie that is similar to the list of movies provided in Raiders of the Lost Ark, The Matrix, Back to the Future, The Terminator. You will be given a set of (A) Cave of Forgotten Dreams
 (B) Batman
 (C) Tiger Lily
-(D) What's Up to choose from.",(B),0.8
+(D) What's Up to choose from.",(B),1.0
 194,88,"Please suggest a movie that is similar to The Matrix, Back to the Future, Raiders of the Lost Ark, The Terminator. You can choose from the following options: (A) Tiger Lily
 (B) Batman
 (C) Cave of Forgotten Dreams
@@ -6137,7 +6137,7 @@ A:",(D),1.0
 196,65,"Given a list of movies Forrest Gump, Independence Day, The Silence of the Lambs, Batman, please recommend a movie that is similar to them from the following options: (A) One Fine Day
 (B) Jurassic Park
 (C) Dragon Ball Z Broly - The Legendary Super Saiyan
-(D) Skyline.",(B),1.0
+(D) Skyline.",(B),0.0
 196,89,"Given the list of movies Forrest Gump, The Silence of the Lambs, Batman, Independence Day, please recommend a movie that is similar to them. You can choose from the following options: (A) Skyline
 (B) Dragon Ball Z Broly - The Legendary Super Saiyan
 (C) Jurassic Park
@@ -6149,7 +6149,7 @@ Options:
 (B) Skyline
 (C) One Fine Day
 (D) Jurassic Park
-Output:",(D),0.8
+Output:",(D),1.0
 196,123,"Please recommend movies similar to the given list of movies. Choose a movie from the list of options that is most similar to the movies in the given movie list.
 Movie list: Forrest Gump, The Silence of the Lambs, Batman, Independence Day
 Options:
@@ -6157,7 +6157,7 @@ Options:
 (B) One Fine Day
 (C) Skyline
 (D) Jurassic Park
-Output:",(D),0.8
+Output:",(D),0.0
 197,109,"Given a list of movies, recommend similar movies using a multi-choice format. You will be presented with a list of movie options and asked to select the most similar movie to the given list.
 List of movies: Seven, Dances with Wolves, Jurassic Park, The Silence of the Lambs
 Options:
@@ -6189,7 +6189,7 @@ Options:
 (B) Forrest Gump
 (C) Blood The Last Vampire
 (D) Cheech and Chong's Up in Smoke
-Output:",(B),0.6
+Output:",(B),1.0
 197,175,"Given a list of movies, recommend a movie that is similar to any of the movies in the list. Choose the best option from the given set of movies.
 Movie list: Seven, The Silence of the Lambs, Jurassic Park, Dances with Wolves
 Options:
@@ -6215,11 +6215,11 @@ A:",(D),1.0
 198,73,"Given a list of movies The Shawshank Redemption, Schindler's List, Dances with Wolves, Pulp Fiction, please suggest a movie that is similar to them. You can choose from the following options: (A) The Way South
 (B) Miss Nobody
 (C) Er ist wieder da
-(D) Braveheart.",(D),0.8
+(D) Braveheart.",(D),1.0
 198,83,"The task is to find a movie that is similar to the list of movies provided in Schindler's List, Pulp Fiction, Dances with Wolves, The Shawshank Redemption. You will be given a set of (A) Braveheart
 (B) Er ist wieder da
 (C) Miss Nobody
-(D) The Way South to choose from.",(A),0.8
+(D) The Way South to choose from.",(A),1.0
 198,99,"Given a list of movies in Schindler's List, The Shawshank Redemption, Dances with Wolves, Pulp Fiction, please recommend a movie that is similar to them. You can select from the following options: (A) The Way South
 (B) Braveheart
 (C) Er ist wieder da
@@ -6239,7 +6239,7 @@ Options:
 (B) Lost and Delirious
 (C) Wisdom
 (D) People I Know
-Output:",(A),0.8
+Output:",(A),1.0
 199,144,"You have a list of movies that you enjoyed and you want to find similar movies to watch. Choose the movie that you think is most similar to the given list of movies from the options provided.
 List of movies: The Fugitive, The Usual Suspects, Forrest Gump, Pulp Fiction
 Options:
@@ -6255,7 +6255,7 @@ Options:
 (B) Wisdom
 (C) People I Know
 (D) Braveheart
-Output:",(D),0.6
+Output:",(D),1.0
 200,57,"Please recommend a movie that is similar to Forrest Gump, Back to the Future, The Lord of the Rings The Fellowship of the Ring, Star Wars Episode VI - Return of the Jedi from the following options: (A) The Silence of the Lambs
 (B) The Boy and the Beast
 (C) Vicky Cristina Barcelona
@@ -6309,26 +6309,26 @@ Options:
 (C) Max Keeble's Big Move
 (D) Shine
 Output:
-Recommended movie:",(A),1.0
+Recommended movie:",(A),0.0
 202,1,"Q: Can you suggest a movie that is similar to any of the following movies: Forrest Gump, Star Wars Episode I - The Phantom Menace, The Matrix, The Shawshank Redemption?
 Options:
 (A) Fight Club
 (B) Blackrock
 (C) Out Cold
 (D) I Shot Jesse James
-A:",(A),0.8
+A:",(A),1.0
 202,31,"Q: Can you suggest a movie that is similar to The Shawshank Redemption, Star Wars Episode I - The Phantom Menace, Forrest Gump, The Matrix? Choose the best option from the following:
 Options:
 (A) Fight Club
 (B) Out Cold
 (C) Blackrock
 (D) I Shot Jesse James
-A:",(A),0.6
+A:",(A),1.0
 202,67,"Find a movie that is similar to the movies in Star Wars Episode I - The Phantom Menace, The Matrix, The Shawshank Redemption, Forrest Gump.
 Choose an option from the following: (A) Out Cold
 (B) Fight Club
 (C) Blackrock
-(D) I Shot Jesse James",(B),0.6
+(D) I Shot Jesse James",(B),1.0
 202,91,"Can you suggest a movie that is similar to The Matrix, Star Wars Episode I - The Phantom Menace, The Shawshank Redemption, Forrest Gump? You can choose from the following options: (A) Blackrock
 (B) Out Cold
 (C) I Shot Jesse James
@@ -6347,14 +6347,14 @@ Options:
 (B) Polyester
 (C) Joe Dirt 2 Beautiful Loser
 (D) Braveheart
-A:",(D),0.8
+A:",(D),1.0
 203,46,"Q: Can you recommend a movie similar to the following movies: Get Shorty, The Fugitive, Mr Holland's Opus, The Shawshank Redemption? 
 Choose the best option from the list below:
 (A) Polyester
 (B) Where Eagles Dare
 (C) Braveheart
 (D) Joe Dirt 2 Beautiful Loser
-A:",(C),1.0
+A:",(C),0.0
 203,122,"Please recommend movies similar to the given list of movies. Choose the best option from the list of movies provided. 
 Movie list: The Fugitive, Mr Holland's Opus, Get Shorty, The Shawshank Redemption
 Options:
@@ -6362,7 +6362,7 @@ Options:
 (B) Braveheart
 (C) Polyester
 (D) Joe Dirt 2 Beautiful Loser
-Output:",(B),0.8
+Output:",(B),1.0
 203,146,"Based on your preferences, we can recommend movies that are similar to the ones you like. We will provide you with a list of options, and you can select the one that you think is the most similar to the movies you provided. 
 Movies: The Fugitive, The Shawshank Redemption, Mr Holland's Opus, Get Shorty
 Options:
@@ -6370,7 +6370,7 @@ Options:
 (B) Braveheart
 (C) Where Eagles Dare
 (D) Joe Dirt 2 Beautiful Loser
-Output:",(B),0.8
+Output:",(B),0.0
 203,154,"Given a list of movies, recommend a similar movie from the following options. Select the option that you think is most similar to the given list of movies.
 List of movies: Mr Holland's Opus, Get Shorty, The Fugitive, The Shawshank Redemption
 Options:
@@ -6396,7 +6396,7 @@ A:",(C),1.0
 204,48,"Please suggest a movie that is similar to Pulp Fiction, Dances with Wolves, Schindler's List, Braveheart. Here are some options you can choose from: (A) Exte Hair Extensions
 (B) The Shawshank Redemption
 (C) The Man Who Shot Liberty Valance
-(D) Hot Lead and Cold Feet.",(B),0.8
+(D) Hot Lead and Cold Feet.",(B),1.0
 204,88,"Please suggest a movie that is similar to Schindler's List, Dances with Wolves, Pulp Fiction, Braveheart. You can choose from the following options: (A) The Man Who Shot Liberty Valance
 (B) Hot Lead and Cold Feet
 (C) The Shawshank Redemption
@@ -6439,25 +6439,25 @@ Options:
 (B) Dances with Wolves
 (C) Benny & Joon
 (D) White Frog
-Output:",(B),0.8
+Output:",(B),1.0
 206,3,"Q: Can you suggest a movie similar to the ones in Star Wars Episode VI - Return of the Jedi, Mission Impossible, X-Men, Back to the Future?
 Here are some options:
 (A) They Came Together
 (B) Hang 'Em High
 (C) My Neighbor Totoro
 (D) Toy Story
-A:",(D),0.8
+A:",(D),0.0
 206,24,"Q: Can you suggest a movie similar to the list of Mission Impossible, X-Men, Star Wars Episode VI - Return of the Jedi, Back to the Future?
 Choose from the following options:
 (A) Hang 'Em High
 (B) My Neighbor Totoro
 (C) They Came Together
 (D) Toy Story
-A:",(D),0.8
+A:",(D),1.0
 206,54,"The task is to recommend a movie that is similar to Back to the Future, Star Wars Episode VI - Return of the Jedi, Mission Impossible, X-Men. You will be presented with a list of options to choose from: (A) My Neighbor Totoro
 (B) They Came Together
 (C) Toy Story
-(D) Hang 'Em High.",(C),1.0
+(D) Hang 'Em High.",(C),0.0
 206,134,"Find a movie similar to a given list of movies. Choose the option that best matches the given list of movies.
 Movie list: Mission Impossible, Back to the Future, Star Wars Episode VI - Return of the Jedi, X-Men
 Options:
@@ -6473,7 +6473,7 @@ Options:
 (B) My Neighbor Totoro
 (C) Toy Story
 (D) They Came Together
-Output:",(C),0.8
+Output:",(C),1.0
 207,36,"Q: Can you recommend a movie that is similar to any of the movies in Star Wars Episode V - The Empire Strikes Back, American Beauty, Raiders of the Lost Ark, Star Wars Episode IV - A New Hope?
 Options:
 (A) Santa's Little Helper
@@ -6484,7 +6484,7 @@ A:",(B),1.0
 207,74,"Your task is to find a movie similar to Star Wars Episode V - The Empire Strikes Back, Raiders of the Lost Ark, Star Wars Episode IV - A New Hope, American Beauty. You have the following options to choose from: (A) Groundhog Day
 (B) Snow Falling on Cedars
 (C) Colombiana
-(D) Santa's Little Helper.",(A),0.8
+(D) Santa's Little Helper.",(A),0.0
 207,79,"Can you suggest movies that are similar to the ones in American Beauty, Star Wars Episode IV - A New Hope, Star Wars Episode V - The Empire Strikes Back, Raiders of the Lost Ark? Here are your options: (A) Snow Falling on Cedars
 (B) Santa's Little Helper
 (C) Colombiana
@@ -6500,14 +6500,14 @@ Options:
 (B) Santa's Little Helper
 (C) Groundhog Day
 (D) Colombiana
-Output:",(C),0.8
+Output:",(C),1.0
 208,6,"Q: Can you suggest a movie that is similar to any of the following: Terminator 2 Judgment Day, The Lion King, The Shawshank Redemption, Schindler's List?
 Options:
 (A) A Night in the Life of Jimmy Reardon
 (B) Aladdin
 (C) I'll Be Home For Christmas
 (D) Lilya 4-Ever
-A:",(B),0.8
+A:",(B),1.0
 208,10,"Q: Can you suggest a movie similar to Terminator 2 Judgment Day, Schindler's List, The Shawshank Redemption, The Lion King?
 Pick from the following options:
 (A) Lilya 4-Ever
@@ -6522,7 +6522,7 @@ A:",(B),0.8
 208,87,"You are tasked with finding a movie that is similar to the list of movies provided in The Lion King, Terminator 2 Judgment Day, Schindler's List, The Shawshank Redemption. You will have to choose from a set of (A) Lilya 4-Ever
 (B) A Night in the Life of Jimmy Reardon
 (C) I'll Be Home For Christmas
-(D) Aladdin.",(D),1.0
+(D) Aladdin.",(D),0.0
 208,162,"Based on a list of movies, recommend a similar movie from the given options.
 Movie list: The Shawshank Redemption, Schindler's List, Terminator 2 Judgment Day, The Lion King
 Options:
@@ -6537,7 +6537,7 @@ Here are some options:
 (B) Blame It on the Bellboy
 (C) Barcelona
 (D) Frank
-A:",(A),1.0
+A:",(A),0.0
 209,77,"Please recommend movies that are similar to the following list of movies: The Usual Suspects, The Silence of the Lambs, Schindler's List, Seven. You can choose from the following options: (A) Blame It on the Bellboy
 (B) Frank
 (C) Barcelona
@@ -6569,14 +6569,14 @@ Choose from the following options:
 (B) Return with Honor
 (C) Feast
 (D) Reservoir Dogs
-A:",(D),1.0
+A:",(D),0.0
 210,25,"Q: Can you suggest a movie similar to One Flew Over the Cuckoo's Nest, The Maltese Falcon, The Sixth Sense, Wallace & Gromit A Close Shave?
 Please choose from the following options:
 (A) In the Loop
 (B) Reservoir Dogs
 (C) Return with Honor
 (D) Feast
-A:",(B),0.6
+A:",(B),1.0
 210,55,"You need to find a movie that is similar to One Flew Over the Cuckoo's Nest, The Maltese Falcon, The Sixth Sense, Wallace & Gromit A Close Shave. You will be given a list of recommended movies to choose from, which are: (A) Feast
 (B) In the Loop
 (C) Return with Honor
@@ -6627,15 +6627,15 @@ Recommended movie:",(D),1.0
 212,48,"Please suggest a movie that is similar to The Fugitive, The Shawshank Redemption, Dances with Wolves, Forrest Gump. Here are some options you can choose from: (A) A Special Day
 (B) Happy Go Lovely
 (C) David Cross Making America Great Again
-(D) Pulp Fiction.",(D),1.0
+(D) Pulp Fiction.",(D),0.0
 212,51,"Your task is to suggest a movie that is similar to The Fugitive, The Shawshank Redemption, Dances with Wolves, Forrest Gump. Please choose from the following options: (A) A Special Day
 (B) Happy Go Lovely
 (C) David Cross Making America Great Again
-(D) Pulp Fiction.",(D),0.8
+(D) Pulp Fiction.",(D),1.0
 212,82,"Given a list of movies in The Fugitive, Forrest Gump, The Shawshank Redemption, Dances with Wolves, recommend a movie that is similar to them. You will be provided with a set of (A) Pulp Fiction
 (B) Happy Go Lovely
 (C) David Cross Making America Great Again
-(D) A Special Day to choose from.",(A),1.0
+(D) A Special Day to choose from.",(A),0.0
 212,121,"Given a list of movies, recommend similar movies using a multi-choice format. You will be presented with a list of movies and asked to select the option that is most similar to the given list.
 List of movies: The Fugitive, The Shawshank Redemption, Dances with Wolves, Forrest Gump
 Options:
@@ -6658,11 +6658,11 @@ Choose from the following options:
 (B) Josie and the Pussycats
 (C) Saw
 (D) Star Wars Episode IV - A New Hope
-A:",(D),0.8
+A:",(D),1.0
 213,52,"You have been asked to recommend a movie similar to The Matrix, Star Wars Episode V - The Empire Strikes Back, Léon The Professional, Raiders of the Lost Ark. You can choose from the following options: (A) Saw
 (B) Josie and the Pussycats
 (C) Star Wars Episode IV - A New Hope
-(D) The Meyerowitz Stories.",(C),0.8
+(D) The Meyerowitz Stories.",(C),1.0
 213,61,"You are given a list of movies The Matrix, Léon The Professional, Star Wars Episode V - The Empire Strikes Back, Raiders of the Lost Ark. Please suggest a movie that is similar to them from the following options: (A) Star Wars Episode IV - A New Hope
 (B) Josie and the Pussycats
 (C) The Meyerowitz Stories
@@ -6674,7 +6674,7 @@ Options:
 (B) The Meyerowitz Stories
 (C) Star Wars Episode IV - A New Hope
 (D) Saw
-Output:",(C),0.6
+Output:",(C),1.0
 213,140,"Q: Find a movie similar to Léon The Professional, Raiders of the Lost Ark, Star Wars Episode V - The Empire Strikes Back, The Matrix:
 Options:
 (A) Saw
@@ -6696,7 +6696,7 @@ Options:
 (B) Thoroughly Modern Millie
 (C) Ready to Rumble
 (D) The Fugitive
-Output:",(D),0.8
+Output:",(D),1.0
 214,139,"Given a list of movies The Shawshank Redemption, Get Shorty, Braveheart, Pulp Fiction, recommend a movie similar to them by selecting one of the options provided in (A) Ready to Rumble
 (B) The Fugitive
 (C) Thoroughly Modern Millie
@@ -6757,13 +6757,13 @@ Options:
 (B) Drag Me to Hell
 (C) The Mask
 (D) 'night Mother
-A:",(C),0.8
+A:",(C),1.0
 216,42,"Q: Can you recommend a movie similar to the following titles: Batman, Pretty Woman, The Lion King, Terminator 2 Judgment Day? Here are some options:
 (A) The Mask
 (B) Drag Me to Hell
 (C) 'night Mother
 (D) The Old Man and the Sea
-A:",(A),1.0
+A:",(A),0.0
 216,47,"Q: Can you recommend a movie similar to any of these Pretty Woman, Batman, Terminator 2 Judgment Day, The Lion King?
 Options:
 (A) 'night Mother
@@ -6782,7 +6782,7 @@ Options:
 (B) The Old Man and the Sea
 (C) The Mask
 (D) Drag Me to Hell
-Output:",(C),0.8
+Output:",(C),0.0
 217,85,"In this task, you need to find a movie that is similar to the list of movies provided in Dances with Wolves, Braveheart, The Fugitive, The Shawshank Redemption. You will be given a set of (A) Beverly Hills Cop III
 (B) Bring Me the Head of Alfredo Garcia
 (C) The Village
@@ -6826,7 +6826,7 @@ Options:
 (B) Avengers Infinity War - Part I
 (C) The Man Who Knew Too Much
 (D) Forrest Gump
-A:",(D),0.8
+A:",(D),1.0
 218,39,"Q: Can you recommend a movie that is similar to the following Pulp Fiction, The Fugitive, The Shawshank Redemption, Dances with Wolves?
 Options:
 (A) The Man Who Knew Too Much
@@ -6855,7 +6855,7 @@ Options:
 (C) The Man Who Knew Too Much
 (D) The City of Women
 Output:
-Option selected:",(B),1.0
+Option selected:",(B),0.0
 219,13,"Q: Can you suggest a movie that is similar to any of these Raiders of the Lost Ark, Men in Black, The Fugitive, Fargo?
 Options:
 (A) Get Smart
@@ -6896,7 +6896,7 @@ Here are some options:
 (B) Dante's Inferno An Animated Epic
 (C) Barefoot in the Park
 (D) The Fugitive
-A:",(D),0.8
+A:",(D),1.0
 220,36,"Q: Can you recommend a movie that is similar to any of the movies in Dead Man Walking, Braveheart, Dances with Wolves, Aladdin?
 Options:
 (A) Dante's Inferno An Animated Epic
@@ -6945,7 +6945,7 @@ Options:
 (B) She's Out of My League
 (C) Twelve Monkeys
 (D) The Lost Room
-A:",(C),0.8
+A:",(C),1.0
 221,43,"Q: Can you recommend a movie that is similar to Pulp Fiction, Star Wars Episode V - The Empire Strikes Back, The Usual Suspects, Star Wars Episode IV - A New Hope?
 Please choose from the following options:
 (A) The Lost Room
@@ -6963,7 +6963,7 @@ Options:
 (B) She's Out of My League
 (C) High Crimes
 (D) The Lost Room
-Output:",(A),0.8
+Output:",(A),1.0
 222,36,"Q: Can you recommend a movie that is similar to any of the movies in The Usual Suspects, Forrest Gump, The Blues Brothers, The Silence of the Lambs?
 Options:
 (A) Independence Day
@@ -7027,11 +7027,11 @@ A:",(A),1.0
 224,54,"The task is to recommend a movie that is similar to Jurassic Park, Forrest Gump, Independence Day, Mission Impossible. You will be presented with a list of options to choose from: (A) Alice Through the Looking Glass
 (B) The Godfather Trilogy 1972-1990
 (C) Halloween II
-(D) Star Wars Episode VI - Return of the Jedi.",(D),0.4
+(D) Star Wars Episode VI - Return of the Jedi.",(D),1.0
 224,90,"I need a recommendation for a movie that is similar to Mission Impossible, Forrest Gump, Independence Day, Jurassic Park. Please select one of the following options: (A) The Godfather Trilogy 1972-1990
 (B) Star Wars Episode VI - Return of the Jedi
 (C) Alice Through the Looking Glass
-(D) Halloween II.",(B),0.8
+(D) Halloween II.",(B),1.0
 224,123,"Please recommend movies similar to the given list of movies. Choose a movie from the list of options that is most similar to the movies in the given movie list.
 Movie list: Forrest Gump, Mission Impossible, Jurassic Park, Independence Day
 Options:
@@ -7039,7 +7039,7 @@ Options:
 (B) The Godfather Trilogy 1972-1990
 (C) Star Wars Episode VI - Return of the Jedi
 (D) Halloween II
-Output:",(C),0.8
+Output:",(C),1.0
 224,145,"Based on your movie preferences, we can recommend similar movies for you to watch. We'll provide you with a list of options, and you can select the one that you think is the most similar to your original choice. 
 Original movie: Mission Impossible, Forrest Gump, Independence Day, Jurassic Park
 Options:
@@ -7065,11 +7065,11 @@ A:",(C),1.0
 225,53,"Your task is to find a movie that is similar to Twelve Monkeys, Monty Python and the Holy Grail, Pi, The Godfather. You will be given a list of options to choose from: (A) Yes Man
 (B) The Machinist
 (C) Perfect Sense
-(D) Pulp Fiction.",(D),0.6
+(D) Pulp Fiction.",(D),1.0
 225,59,"The task is to find a movie that is similar to Twelve Monkeys, Monty Python and the Holy Grail, Pi, The Godfather. The options available are: (A) Yes Man
 (B) Perfect Sense
 (C) The Machinist
-(D) Pulp Fiction. Please suggest a movie from these options.",(D),0.8
+(D) Pulp Fiction. Please suggest a movie from these options.",(D),1.0
 225,170,"Based on your movie preferences, I can recommend a similar movie for you. Please provide me with a list of movies you enjoyed and a set of options to choose from.
 Movies: The Godfather, Monty Python and the Holy Grail, Pi, Twelve Monkeys
 Options:
@@ -7078,14 +7078,14 @@ Options:
 (C) The Machinist
 (D) Perfect Sense
 Output:
-Recommended movie:",(B),0.8
+Recommended movie:",(B),1.0
 226,21,"Q: Can you suggest a movie that is similar to the following: Being John Malkovich, Star Wars Episode IV - A New Hope, Mission Impossible, The Fugitive?
 Listed below are your options:
 (A) Pet Sematary II
 (B) Ken Park
 (C) Winnie Pooh
 (D) Star Wars Episode V - The Empire Strikes Back
-A:",(D),0.8
+A:",(D),1.0
 226,39,"Q: Can you recommend a movie that is similar to the following The Fugitive, Mission Impossible, Star Wars Episode IV - A New Hope, Being John Malkovich?
 Options:
 (A) Star Wars Episode V - The Empire Strikes Back
@@ -7096,7 +7096,7 @@ A:",(A),1.0
 226,64,"The task is to recommend a movie that is similar to Star Wars Episode IV - A New Hope, The Fugitive, Mission Impossible, Being John Malkovich from the following options: (A) Pet Sematary II
 (B) Ken Park
 (C) Winnie Pooh
-(D) Star Wars Episode V - The Empire Strikes Back.",(D),1.0
+(D) Star Wars Episode V - The Empire Strikes Back.",(D),0.0
 226,94,"Can you recommend a movie that is similar to Mission Impossible, Star Wars Episode IV - A New Hope, The Fugitive, Being John Malkovich? Here are your options: (A) Pet Sematary II
 (B) Winnie Pooh
 (C) Ken Park
@@ -7108,7 +7108,7 @@ Options:
 (B) Star Wars Episode V - The Empire Strikes Back
 (C) Winnie Pooh
 (D) Pet Sematary II
-Output:",(B),0.8
+Output:",(B),1.0
 227,13,"Q: Can you suggest a movie that is similar to any of these Inc, Catch Me If You Can, The Lion King, Minority Report, Monsters?
 Options:
 (A) Gentlemen Broncos
@@ -7119,15 +7119,15 @@ A:",(B),1.0
 227,56,"Your goal is to recommend a movie that is similar to The Lion King, Catch Me If You Can, Minority Report, Inc, Monsters. You will be presented with a list of options, and you need to choose the one that fits the best. The options are: (A) Shrek
 (B) Gentlemen Broncos
 (C) Strike!
-(D) The Natural.",(A),0.8
+(D) The Natural.",(A),1.0
 227,58,"Given a list of movies Monsters, The Lion King, Catch Me If You Can, Inc, Minority Report, please suggest a movie that is similar to them from the following options: (A) Gentlemen Broncos
 (B) Strike!
 (C) Shrek
-(D) The Natural.",(C),0.8
+(D) The Natural.",(C),1.0
 227,89,"Given the list of movies Catch Me If You Can, Minority Report, Monsters, Inc, The Lion King, please recommend a movie that is similar to them. You can choose from the following options: (A) Strike!
 (B) Shrek
 (C) The Natural
-(D) Gentlemen Broncos.",(B),1.0
+(D) Gentlemen Broncos.",(B),0.0
 227,165,"Based on the movies you provided, we have some recommendations for you! Which of the following options do you think you would enjoy watching next?
 Movie list: The Lion King, Minority Report, Monsters, Catch Me If You Can, Inc
 Options:
@@ -7135,18 +7135,18 @@ Options:
 (B) Gentlemen Broncos
 (C) Shrek
 (D) The Natural
-Output:",(C),0.8
+Output:",(C),1.0
 228,7,"Q: Can you suggest a movie that is similar to the movies in Braveheart, The Shawshank Redemption, Interview with the Vampire The Vampire Chronicles, The Lion King?
 Options:
 (A) Uptown Girls
 (B) The Den
 (C) Dances with Wolves
 (D) The Killer Shrews
-A:",(C),0.8
+A:",(C),1.0
 228,50,"Can you find a movie that is similar to Interview with the Vampire The Vampire Chronicles, The Shawshank Redemption, Braveheart, The Lion King? I have some options for you to choose from: (A) The Den
 (B) Dances with Wolves
 (C) The Killer Shrews
-(D) Uptown Girls.",(B),0.6
+(D) Uptown Girls.",(B),1.0
 228,123,"Please recommend movies similar to the given list of movies. Choose a movie from the list of options that is most similar to the movies in the given movie list.
 Movie list: Braveheart, The Lion King, Interview with the Vampire The Vampire Chronicles, The Shawshank Redemption
 Options:
@@ -7162,7 +7162,7 @@ Options:
 (B) The Den
 (C) Uptown Girls
 (D) Dances with Wolves
-Output:",(D),0.8
+Output:",(D),1.0
 228,162,"Based on a list of movies, recommend a similar movie from the given options.
 Movie list: Braveheart, The Lion King, Interview with the Vampire The Vampire Chronicles, The Shawshank Redemption
 Options:
@@ -7170,7 +7170,7 @@ Options:
 (B) The Den
 (C) The Killer Shrews
 (D) Dances with Wolves
-Output:",(D),0.8
+Output:",(D),1.0
 229,67,"Find a movie that is similar to the movies in Get Shorty, Pulp Fiction, The Fugitive, Braveheart.
 Choose an option from the following: (A) Forrest Gump
 (B) I Do How to Get Married and Stay Single
@@ -7239,11 +7239,11 @@ Output:",(A),0.0
 231,56,"Your goal is to recommend a movie that is similar to Pulp Fiction, The Fugitive, The Shawshank Redemption, Stargate. You will be presented with a list of options, and you need to choose the one that fits the best. The options are: (A) Dances with Wolves
 (B) One-Eyed Jacks
 (C) The Astronaut Farmer
-(D) It's Pat.",(A),1.0
+(D) It's Pat.",(A),0.0
 231,78,"I need your help to find movies that are similar to Stargate, Pulp Fiction, The Fugitive, The Shawshank Redemption. Please choose from the following options: (A) The Astronaut Farmer
 (B) One-Eyed Jacks
 (C) It's Pat
-(D) Dances with Wolves.",(D),0.8
+(D) Dances with Wolves.",(D),1.0
 231,100,"I need a recommendation for a movie that is similar to the movies in Stargate, Pulp Fiction, The Fugitive, The Shawshank Redemption. Please choose an option from the following: (A) It's Pat
 (B) The Astronaut Farmer
 (C) One-Eyed Jacks
@@ -7252,7 +7252,7 @@ Output:",(A),0.0
 (B) One-Eyed Jacks
 (C) It's Pat
 (D) Dances with Wolves.
-Output:",(D),1.0
+Output:",(D),0.0
 232,19,"Q: Can you recommend a movie similar to The Shawshank Redemption, Pulp Fiction, Schindler's List, Dances with Wolves?
 Choose from the following options:
 (A) Braveheart
@@ -7263,7 +7263,7 @@ A:",(A),1.0
 232,48,"Please suggest a movie that is similar to Pulp Fiction, Dances with Wolves, Schindler's List, The Shawshank Redemption. Here are some options you can choose from: (A) The Pretty One
 (B) The Sound of Music
 (C) Braveheart
-(D) Elsa & Fred.",(C),0.8
+(D) Elsa & Fred.",(C),1.0
 232,95,"I am looking for a movie that is similar to Pulp Fiction, Dances with Wolves, Schindler's List, The Shawshank Redemption. Please select an option from the following list: (A) The Sound of Music
 (B) The Pretty One
 (C) Braveheart
@@ -7279,7 +7279,7 @@ Options:
 (B) The Sound of Music
 (C) Braveheart
 (D) Elsa & Fred
-Output:",(C),0.8
+Output:",(C),1.0
 233,19,"Q: Can you recommend a movie similar to Don Juan DeMarco, Braveheart, Mr Holland's Opus, What's Eating Gilbert Grape?
 Choose from the following options:
 (A) IQ
@@ -7324,7 +7324,7 @@ Options:
 (B) Car Wash
 (C) The Apple
 (D) Boiling Point
-Output:",(A),0.8
+Output:",(A),1.0
 234,117,"Given a list of movies, recommend a movie that is most similar to the given list using a multi-choice format. You will be provided with a list of movies as options, and you need to select the movie that is most similar to the given list of movies.
 List of movies: Forrest Gump, Star Wars Episode VI - Return of the Jedi, Back to the Future, Star Wars Episode IV - A New Hope
 Options:
@@ -7340,7 +7340,7 @@ Options:
 (B) Car Wash
 (C) Boiling Point
 (D) Independence Day
-Output:",(D),0.8
+Output:",(D),1.0
 234,134,"Find a movie similar to a given list of movies. Choose the option that best matches the given list of movies.
 Movie list: Star Wars Episode IV - A New Hope, Star Wars Episode VI - Return of the Jedi, Forrest Gump, Back to the Future
 Options:
@@ -7348,7 +7348,7 @@ Options:
 (B) Boiling Point
 (C) The Apple
 (D) Car Wash
-Output:",(A),1.0
+Output:",(A),0.0
 235,79,"Can you suggest movies that are similar to the ones in The Shawshank Redemption, Saving Private Ryan, The Matrix, Braveheart? Here are your options: (A) Auto Focus
 (B) Dracula 2000
 (C) Schindler's List
@@ -7368,7 +7368,7 @@ Options:
 (B) 1492 Conquest of Paradise
 (C) Schindler's List
 (D) Auto Focus
-Output:",(C),0.8
+Output:",(C),1.0
 235,168,"Given a list of movies, recommend similar movies to the user. You will be presented with a list of options to choose from.
 movie_list: Saving Private Ryan, Braveheart, The Shawshank Redemption, The Matrix
 Options:
@@ -7384,7 +7384,7 @@ Options:
 (B) Auto Focus
 (C) 1492 Conquest of Paradise
 (D) Dracula 2000
-Output:",(A),0.6
+Output:",(A),0.0
 236,37,"Q: Can you recommend a movie that is similar to the following list of movies: Jurassic Park, Batman, The Silence of the Lambs, Independence Day? Please choose from the following options:
 Options:
 (A) Forrest Gump
@@ -7410,7 +7410,7 @@ Options: (A) Before Night Falls
 (B) The Girl Who Kicked the Hornet's Nest
 (C) Forrest Gump
 (D) The Sessions
-Output:",(C),0.6
+Output:",(C),0.0
 237,59,"The task is to find a movie that is similar to Forrest Gump, The Shawshank Redemption, Pulp Fiction, Crimson Tide. The options available are: (A) Spanglish
 (B) Braveheart
 (C) Meet the Feebles
@@ -7418,7 +7418,7 @@ Output:",(C),0.6
 237,62,"The goal is to find a movie that is similar to The Shawshank Redemption, Pulp Fiction, Forrest Gump, Crimson Tide. You can choose from the following options: (A) Meet the Feebles
 (B) Spanglish
 (C) Braveheart
-(D) Ripley's Game. Please suggest a movie from these options.",(C),0.6
+(D) Ripley's Game. Please suggest a movie from these options.",(C),1.0
 237,82,"Given a list of movies in The Shawshank Redemption, Crimson Tide, Forrest Gump, Pulp Fiction, recommend a movie that is similar to them. You will be provided with a set of (A) Braveheart
 (B) Ripley's Game
 (C) Spanglish
@@ -7453,7 +7453,7 @@ A:",(A),1.0
 239,101,"Please recommend a movie that is similar to the list of movies in Pinocchio, Snow White and the Seven Dwarfs, Aladdin, Babe. The options are as follows: (A) The Secret Garden
 (B) The Double
 (C) All Is Lost
-(D) Valentine's Day.",(A),0.8
+(D) Valentine's Day.",(A),1.0
 239,124,"Given a list of movies and a set of movie options, recommend movies similar to the given list of movies. The task format is multi_choice.
 List of movies: Pinocchio, Babe, Aladdin, Snow White and the Seven Dwarfs
 Options:
@@ -7461,7 +7461,7 @@ Options:
 (B) Valentine's Day
 (C) The Double
 (D) The Secret Garden
-Output:",(D),0.8
+Output:",(D),1.0
 239,156,"Given a list of movies, recommend a similar movie from a list of options. Choose the movie that you think is most similar to the given list.
 List of movies: Snow White and the Seven Dwarfs, Aladdin, Babe, Pinocchio
 Options:
@@ -7469,17 +7469,17 @@ Options:
 (B) All Is Lost
 (C) The Double
 (D) The Secret Garden
-Output:",(D),0.8
+Output:",(D),1.0
 240,29,"Q: Can you recommend a movie similar to the following list: Dances with Wolves, The Shawshank Redemption, Pulp Fiction, The Fugitive? Here are some options to choose from:
 (A) Babylon 5 A Call to Arms
 (B) Saint Ralph
 (C) Forrest Gump
 (D) Letters from Iwo Jima
-A:",(C),0.8
+A:",(C),1.0
 240,62,"The goal is to find a movie that is similar to Dances with Wolves, Pulp Fiction, The Shawshank Redemption, The Fugitive. You can choose from the following options: (A) Saint Ralph
 (B) Letters from Iwo Jima
 (C) Forrest Gump
-(D) Babylon 5 A Call to Arms. Please suggest a movie from these options.",(C),1.0
+(D) Babylon 5 A Call to Arms. Please suggest a movie from these options.",(C),0.0
 240,71,"Find a movie that shares similarities with the movies in Dances with Wolves, The Shawshank Redemption, The Fugitive, Pulp Fiction.
 Choose an option from the list below: (A) Babylon 5 A Call to Arms
 (B) Letters from Iwo Jima
@@ -7488,7 +7488,7 @@ Choose an option from the list below: (A) Babylon 5 A Call to Arms
 240,74,"Your task is to find a movie similar to The Shawshank Redemption, The Fugitive, Pulp Fiction, Dances with Wolves. You have the following options to choose from: (A) Letters from Iwo Jima
 (B) Saint Ralph
 (C) Forrest Gump
-(D) Babylon 5 A Call to Arms.",(C),0.8
+(D) Babylon 5 A Call to Arms.",(C),1.0
 240,151,"Based on your movie preferences, we can recommend similar movies for you to watch. Choose the movie that you think is most similar to the given list of movies.
 Given list of movies: Dances with Wolves, The Fugitive, Pulp Fiction, The Shawshank Redemption
 Options:
@@ -7496,14 +7496,14 @@ Options:
 (B) Babylon 5 A Call to Arms
 (C) Letters from Iwo Jima
 (D) Forrest Gump
-Output:",(D),0.8
+Output:",(D),1.0
 241,14,"Q: Can you recommend a movie similar to Heat, The Fugitive, Braveheart, Schindler's List from the following options?
 Options:
 (A) Hello Ladies The Movie
 (B) Star Trek
 (C) Wild Orchid
 (D) The Silence of the Lambs
-A:",(D),0.8
+A:",(D),1.0
 241,76,"From the list of movies Schindler's List, Braveheart, The Fugitive, Heat, please recommend a movie that is similar to them. You can choose from the following options: (A) The Silence of the Lambs
 (B) Hello Ladies The Movie
 (C) Wild Orchid
@@ -7520,7 +7520,7 @@ Which of the following movies is similar to The Fugitive, Heat, Schindler's List
 (B) Star Trek
 (C) Wild Orchid
 (D) The Silence of the Lambs
-Answer:",(D),0.8
+Answer:",(D),1.0
 241,157,"Recommend a movie similar to a given list of movies. Choose the option that is most similar to the given list of movies.
 Given list of movies: Heat, Schindler's List, Braveheart, The Fugitive
 Options:
@@ -7528,7 +7528,7 @@ Options:
 (B) Hello Ladies The Movie
 (C) The Silence of the Lambs
 (D) Star Trek
-Output:",(C),0.8
+Output:",(C),1.0
 241,178,"Recommend a movie similar to a given list of movies.
 movie_list: Braveheart, The Fugitive, Heat, Schindler's List
 Options:
@@ -7540,7 +7540,7 @@ Output:",(B),1.0
 242,73,"Given a list of movies Star Wars Episode VI - Return of the Jedi, Independence Day, Star Wars Episode V - The Empire Strikes Back, American Beauty, please suggest a movie that is similar to them. You can choose from the following options: (A) Ivan Vasilievich Back to the Future
 (B) Frankenweenie
 (C) Star Wars Episode IV - A New Hope
-(D) We Bought a Zoo.",(C),0.8
+(D) We Bought a Zoo.",(C),0.0
 242,112,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a multi-choice format where you need to choose an option from a list of movies provided as options.
 List of movies: American Beauty, Star Wars Episode V - The Empire Strikes Back, Independence Day, Star Wars Episode VI - Return of the Jedi
 Options:
@@ -7556,7 +7556,7 @@ Options:
 (B) Star Wars Episode IV - A New Hope
 (C) We Bought a Zoo
 (D) Ivan Vasilievich Back to the Future
-Output:",(B),0.8
+Output:",(B),1.0
 242,164,"Given a list of movies, recommend similar movies to watch. Choose the best option from the given list of movie options.
 Movie list: Star Wars Episode VI - Return of the Jedi, American Beauty, Star Wars Episode V - The Empire Strikes Back, Independence Day
 Options:
@@ -7579,16 +7579,16 @@ Choose from the following options:
 (B) The Hunting Party
 (C) Reality Bites
 (D) Schindler's List
-A:",(D),0.8
+A:",(D),1.0
 243,50,"Can you find a movie that is similar to Braveheart, Dances with Wolves, The Shawshank Redemption, Terminator 2 Judgment Day? I have some options for you to choose from: (A) The Hunting Party
 (B) Baraka
 (C) Schindler's List
-(D) Reality Bites.",(C),0.8
+(D) Reality Bites.",(C),1.0
 243,70,"Provide a recommendation for a movie that is similar to the movies in Dances with Wolves, The Shawshank Redemption, Terminator 2 Judgment Day, Braveheart.
 Select one of the following options: (A) Baraka
 (B) The Hunting Party
 (C) Schindler's List
-(D) Reality Bites",(C),0.8
+(D) Reality Bites",(C),1.0
 243,76,"From the list of movies The Shawshank Redemption, Braveheart, Dances with Wolves, Terminator 2 Judgment Day, please recommend a movie that is similar to them. You can choose from the following options: (A) The Hunting Party
 (B) Schindler's List
 (C) Reality Bites
@@ -7607,7 +7607,7 @@ Choose from the following options:
 (B) The Chase
 (C) Blitz
 (D) The Usual Suspects
-A:",(D),0.8
+A:",(D),1.0
 244,38,"Q: Can you recommend a movie similar to one of these Pulp Fiction, The Fugitive, The Shawshank Redemption, Fargo:
 Options:
 (A) Blitz
@@ -7626,7 +7626,7 @@ Options:
 (B) The Chase
 (C) Blitz
 (D) Only Lovers Left Alive
-Output:",(A),0.8
+Output:",(A),1.0
 244,166,"Based on the movies you provided, we can recommend some similar movies for you. Please select the movie you would like to watch from the following options:
 Movie List: The Fugitive, Pulp Fiction, Fargo, The Shawshank Redemption
 Options:
@@ -7680,7 +7680,7 @@ Options:
 (B) Meet the Spartans
 (C) Leprechaun 4 In Space
 (D) Harlem Nights
-Output:",(A),0.8
+Output:",(A),0.0
 246,124,"Given a list of movies and a set of movie options, recommend movies similar to the given list of movies. The task format is multi_choice.
 List of movies: Willy Wonka & the Chocolate Factory, So I Married an Axe Murderer, Batman, The Fugitive
 Options:
@@ -7737,7 +7737,7 @@ A:",(D),1.0
 248,94,"Can you recommend a movie that is similar to Schindler's List, Dances with Wolves, Apollo 13, The Shawshank Redemption? Here are your options: (A) Braveheart
 (B) House II The Second Story
 (C) In China They Eat Dogs
-(D) Popeye.",(A),0.8
+(D) Popeye.",(A),1.0
 248,107,"Given a list of movies, recommend a movie that is most similar to the given list. You will be presented with a list of options to choose from. Select the movie that you think is the best match to the given list of movies.
 List of movies: Schindler's List, The Shawshank Redemption, Apollo 13, Dances with Wolves
 Options:
@@ -7745,7 +7745,7 @@ Options:
 (B) In China They Eat Dogs
 (C) Braveheart
 (D) Popeye
-Output:",(C),0.8
+Output:",(C),1.0
 248,121,"Given a list of movies, recommend similar movies using a multi-choice format. You will be presented with a list of movies and asked to select the option that is most similar to the given list.
 List of movies: Dances with Wolves, The Shawshank Redemption, Apollo 13, Schindler's List
 Options:
@@ -7753,7 +7753,7 @@ Options:
 (B) Braveheart
 (C) In China They Eat Dogs
 (D) House II The Second Story
-Output:",(B),0.8
+Output:",(B),1.0
 248,134,"Find a movie similar to a given list of movies. Choose the option that best matches the given list of movies.
 Movie list: Dances with Wolves, The Shawshank Redemption, Schindler's List, Apollo 13
 Options:
@@ -7761,7 +7761,7 @@ Options:
 (B) Popeye
 (C) Braveheart
 (D) House II The Second Story
-Output:",(C),0.8
+Output:",(C),1.0
 249,16,"Q: Can you suggest a movie similar to the ones in The Shawshank Redemption, Terminator 2 Judgment Day, Schindler's List, The Lion King?
 Choose from the following options:
 (A) Tarzan
@@ -7780,7 +7780,7 @@ A:",(B),0.0
 249,76,"From the list of movies The Shawshank Redemption, Terminator 2 Judgment Day, Schindler's List, The Lion King, please recommend a movie that is similar to them. You can choose from the following options: (A) Tarzan
 (B) Nothing But Trouble
 (C) The Red Turtle
-(D) Aladdin.",(D),0.8
+(D) Aladdin.",(D),1.0
 249,99,"Given a list of movies in The Lion King, The Shawshank Redemption, Schindler's List, Terminator 2 Judgment Day, please recommend a movie that is similar to them. You can select from the following options: (A) The Red Turtle
 (B) Aladdin
 (C) Nothing But Trouble
