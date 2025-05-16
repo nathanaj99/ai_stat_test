@@ -1,0 +1,6 @@
+transformers
+datasets
+pandas
+matplotlib
+scipy
+openai
